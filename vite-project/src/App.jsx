@@ -32,9 +32,10 @@ const App = ()=> {
   };
 
   // Handle file upload
-  const handleFileChange = (event) => {
+  const handleFileChange = async (event) => {
     const file = event.target.files[0];
     if (file) {
+      // Preview handling remains same
       const reader = new FileReader();
       reader.onloadend = () => {
         setPreview(reader.result);
@@ -42,6 +43,35 @@ const App = ()=> {
         setShowMap(false);
       };
       reader.readAsDataURL(file);
+
+      // Upload handling with better error messages
+      try {
+        const formData = new FormData();
+        formData.append('image', file);
+
+        console.log('Attempting to upload to:', `${import.meta.env.VITE_API_URL}/api/upload-image`);
+
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/upload-image`, {
+          method: 'POST',
+          credentials: 'include', // Add this
+          headers: {
+              'Accept': 'application/json',
+          },
+          body: formData,
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("Upload successful:", data);
+      } catch (error) {
+        if (error.message.includes('Failed to fetch') || error.message.includes('Network Error')) {
+          console.error("Connection failed. Please check if the server is running");
+        }
+        console.error("Upload error:", error.message);
+      }
     }
   };
 
@@ -53,10 +83,8 @@ const App = ()=> {
     }
 
     try {
-      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(searchText)}&limit=5`;
-      const response = await fetch(url, {
-        headers: { 'User-Agent': 'RockfallPredictionApp/1.0' }
-      });
+      const url = `${import.meta.env.VITE_API_URL}/location/search-location?q=${encodeURIComponent(searchText)}`;
+      const response = await fetch(url);
       const data = await response.json();
       
       setSuggestions(data.map(item => ({
@@ -91,10 +119,8 @@ const App = ()=> {
     setSuggestions([]);
 
     try {
-      const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}&limit=1`;
-      const response = await fetch(url, {
-        headers: { 'User-Agent': 'RockfallPredictionApp/1.0' }
-      });
+      const url = `${import.meta.env.VITE_API_URL}/location/search-location?q=${encodeURIComponent(address)}`;
+      const response = await fetch(url);
       const data = await response.json();
 
       if (data && data.length > 0) {
@@ -132,7 +158,6 @@ const App = ()=> {
       return;
     }
     setShowMap(true);
-
   };
 
   return (
