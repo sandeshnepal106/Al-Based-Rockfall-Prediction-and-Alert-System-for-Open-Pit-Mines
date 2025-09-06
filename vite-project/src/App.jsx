@@ -7,6 +7,8 @@ function App() {
   const [fileUploaded, setFileUploaded] = useState(false);
   const [preview, setPreview] = useState(null);
   const [showMap, setShowMap] = useState(false);
+  const [count, setCount] = useState(0); // <-- added missing count state
+
   const positions = [[23.7400, 86.4200]]; // Example: Jharia coal mine
 
   // Handle file selection
@@ -31,22 +33,37 @@ function App() {
   return (
     <div className="container">
       <div className="logos">
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo vite" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+
+      <h1>AI Rockfall Prediction Demo</h1>
+
       <div className="card">
+        <input type="file" accept="image/*" onChange={handleFileChange} />
+
+        {fileUploaded && (
+          <div>
+            <img src={preview} alt="Uploaded preview" className="preview" />
+            <button onClick={handlePredict}>Run Prediction</button>
+          </div>
+        )}
+
+        {showMap && (
+          <p>🗺️ Map would be shown here at {positions[0].join(', ')}</p>
+          // Later you can add React-Leaflet map here
+        )}
+
         <button onClick={() => setCount(count + 1)}>
           count is {count}
         </button>
-      )}
+      </div>
     </div>
   );
 }
 
 export default App
-
