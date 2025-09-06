@@ -1,13 +1,24 @@
 import React, { useState } from "react";
-import { Upload, Image as ImageIcon, Activity } from "lucide-react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { Upload, Image as ImageIcon, Activity, Search } from "lucide-react";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
 import "./App.css";
+
+// Component to update map view on position change
+function MapUpdater({ position }) {
+  const map = useMap();
+  if (position) {
+    map.flyTo(position, 12, { animate: true, duration: 2 });
+  }
+  return null;
+}
 
 function App() {
   const [fileUploaded, setFileUploaded] = useState(false);
   const [preview, setPreview] = useState(null);
   const [showMap, setShowMap] = useState(false);
-  const positions = [[23.7400, 86.4200]]; // Example: Jharia coal mine
+  const [locationName, setLocationName] = useState("");
+  const [position, setPosition] = useState(null);
 
   // Handle file selection
   const handleFileChange = (event) => {
@@ -17,14 +28,43 @@ function App() {
       reader.onloadend = () => {
         setPreview(reader.result);
         setFileUploaded(true);
-        setShowMap(false); // reset map if new image uploaded
+        setShowMap(false);
       };
       reader.readAsDataURL(file);
     }
   };
 
+  // Handle location search (Nominatim API)
+  const handleSearch = async () => {
+    if (!locationName) return;
+
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(
+          locationName
+        )}`
+      );
+      const data = await response.json();
+
+      if (data && data.length > 0) {
+        const lat = parseFloat(data[0].lat);
+        const lon = parseFloat(data[0].lon);
+        setPosition([lat, lon]);
+      } else {
+        alert("Location not found!");
+      }
+    } catch (error) {
+      console.error("Error fetching location:", error);
+      alert("Error fetching location data.");
+    }
+  };
+
   // Handle prediction
   const handlePredict = () => {
+    if (!position) {
+      alert("Please search for a location first!");
+      return;
+    }
     setShowMap(true);
   };
 
@@ -36,7 +76,7 @@ function App() {
           ⛏ Rockfall AI Prediction
         </h1>
         <p className="text-gray-400 mt-3 text-lg">
-          Upload an image to assess potential risk
+          Upload an image and enter a location to assess risk
         </p>
       </header>
 
@@ -55,10 +95,29 @@ function App() {
         </label>
       </section>
 
-     {/* Image + Map Section (Side by Side, Wider) */}
+      {/* Location Search Bar */}
+      {fileUploaded && (
+        <div className="mt-8 flex gap-3 w-full max-w-lg">
+          <input
+            type="text"
+            value={locationName}
+            onChange={(e) => setLocationName(e.target.value)}
+            placeholder="Enter location name (e.g., Ravangla, South Sikkim)"
+            className="flex-grow px-4 py-3 rounded-xl border border-slate-700 bg-slate-800/50 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          />
+          <button
+            onClick={handleSearch}
+            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 rounded-xl shadow-lg flex items-center gap-2 font-semibold transition"
+          >
+            <Search className="h-5 w-5" /> Search
+          </button>
+        </div>
+      )}
+
+      {/* Image + Map Section */}
       {fileUploaded && (
         <section className="mt-12 flex flex-col md:flex-row gap-8 w-full px-8 items-stretch">
-          {/* Image Section (smaller) */}
+          {/* Image Section */}
           <div className="flex-1 bg-slate-800/40 backdrop-blur-xl p-6 rounded-3xl shadow-2xl border border-slate-700 flex flex-col">
             <h3 className="text-lg font-semibold mb-4 flex items-center justify-center gap-2 text-blue-300">
               <ImageIcon className="h-6 w-6 text-blue-400" /> Selected Image
@@ -72,36 +131,42 @@ function App() {
             </div>
           </div>
 
-          {/* Map Section (larger width + height) */}
-          {showMap && (
+          {/* Map Section */}
+          {showMap && position && (
             <div className="flex-[2] bg-slate-800/40 backdrop-blur-xl p-6 rounded-3xl shadow-2xl border border-slate-700 flex flex-col">
               <h3 className="text-lg font-semibold mb-4 text-cyan-300 text-center">
                 📍 Risk Map
               </h3>
               <div className="flex-grow">
                 <MapContainer
-                  center={positions[0]}
+                  center={position}
                   zoom={12}
                   minZoom={5}
                   maxZoom={16}
-                  style={{ height: "500px", width: "100%", borderRadius: "1rem" }}
+                  style={{
+                    height: "500px",
+                    width: "100%",
+                    borderRadius: "1rem",
+                  }}
                 >
                   <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
                   />
-                  {positions.map((position, index) => (
-                    <Marker key={index} position={position}>
-                      <Popup>Predicted Risk Location {index + 1}</Popup>
-                    </Marker>
-                  ))}
+                  {position && (
+                    <>
+                      <Marker position={position}>
+                        <Popup>Predicted Risk Location</Popup>
+                      </Marker>
+                      <MapUpdater position={position} />
+                    </>
+                  )}
                 </MapContainer>
               </div>
             </div>
           )}
         </section>
       )}
-
 
       {/* Predict Button */}
       {fileUploaded && !showMap && (
