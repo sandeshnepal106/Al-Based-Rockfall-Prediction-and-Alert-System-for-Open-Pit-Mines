@@ -6,13 +6,11 @@ import { getLatestImageMiddleware } from '../middleware/getImage.js'
 import { getLatestInfo } from '../controller/getLatestInfo.js';
 
 
-// routes/locationRoutes.js
-import express from "express";
-import axios from "axios";
+
 import { spawn } from "child_process";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getLatestImageMiddleware } from "../middleware/getImage.js";
+
 
 const locationRouter = express.Router();
 

@@ -4,6 +4,6 @@ import upload from "../middleware/multer.js";
 
 const imageRouter = express.Router();
 
-imageRouter.post('/upload-image', upload.single('image'), uploadImage, );
+imageRouter.post('/upload-image', upload.single('image'), uploadImage );
 
 export default imageRouter;

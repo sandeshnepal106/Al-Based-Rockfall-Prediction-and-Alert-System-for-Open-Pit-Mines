@@ -4,11 +4,13 @@ export const uploadImage = async(req, res) => {
     try {
         const imageURL = req.file.path;
         
+        console.log(imageURL);
         if (!imageURL) {
             return res.status(400).json({ message: "Image URL is required" });
         }
         const newUpload = new uploadModel({ imageURL });
         await newUpload.save();
+
 
         res.status(201).json({ message: "Image uploaded successfully" });
         console.log("URL uploaded");

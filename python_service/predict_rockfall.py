@@ -120,61 +120,66 @@ class RockfallPredictor:
             return None
     
     def latlon_to_pixel(self, lat, lon):
-        """Convert latitude/longitude to pixel coordinates in the DEM image"""
+        """
+            Convert latitude/longitude to pixel coordinates in the DEM image, ensuring robust mapping for variable bounds.
+        """
         if not self.dem_bounds or self.dem_array is None:
+            print("DEM bounds or array missing!", file=sys.stderr)
             return None, None
-        
-        try:
-            height, width = self.dem_array.shape
-            
-            # Calculate pixel coordinates
-            x_ratio = (lon - self.dem_bounds['min_lon']) / (self.dem_bounds['max_lon'] - self.dem_bounds['min_lon'])
-            y_ratio = (self.dem_bounds['max_lat'] - lat) / (self.dem_bounds['max_lat'] - self.dem_bounds['min_lat'])
-            
-            pixel_x = int(x_ratio * width)
-            pixel_y = int(y_ratio * height)
-            
-            # Ensure coordinates are within bounds
-            pixel_x = max(0, min(width - 1, pixel_x))
-            pixel_y = max(0, min(height - 1, pixel_y))
-            
-            return pixel_x, pixel_y
-            
-        except Exception as e:
-            print(f"Error converting lat/lon to pixel: {e}", file=sys.stderr)
+        height, width = self.dem_array.shape
+        # prevent division by zero
+        lat_range = self.dem_bounds['max_lat'] - self.dem_bounds['min_lat']
+        lon_range = self.dem_bounds['max_lon'] - self.dem_bounds['min_lon']
+        if lat_range == 0 or lon_range == 0:
+            print("DEM bounds invalid!", file=sys.stderr)
             return None, None
+
+        # Calculate ratios and clamp to [0,1]
+        x_ratio = (lon - self.dem_bounds['min_lon']) / lon_range
+        y_ratio = (self.dem_bounds['max_lat'] - lat) / lat_range
+        x_ratio = max(0.0, min(1.0, x_ratio))
+        y_ratio = max(0.0, min(1.0, y_ratio))
+
+        pixel_x = int(x_ratio * (width - 1))
+        pixel_y = int(y_ratio * (height - 1))
+        print(f"latlon_to_pixel: lat={lat} lon={lon} --> x={pixel_x}, y={pixel_y}", file=sys.stderr)
+        return pixel_x, pixel_y
+
     
     def calculate_slope_angle_from_dem(self, lat, lon):
-        """Calculate slope angle from DEM image at given coordinates"""
+        """
+            Calculate slope angle from DEM using a 3x3 window, with better diagnostics and edge handling.
+        """
         if self.dem_array is None:
+            print("DEM array is None; fallback.", file=sys.stderr)
             return self._estimate_slope_fallback(lat, lon)
-        
-        try:
-            # Convert lat/lon to pixel coordinates
-            pixel_x, pixel_y = self.latlon_to_pixel(lat, lon)
-            
-            if pixel_x is None or pixel_y is None:
-                print(f"Coordinates {lat}, {lon} are outside DEM bounds", file=sys.stderr)
-                return self._estimate_slope_fallback(lat, lon)
-            
-            # Extract 3x3 neighborhood around the point
-            height, width = self.dem_array.shape
-            
-            # Define window bounds
-            y_min = max(0, pixel_y - 1)
-            y_max = min(height, pixel_y + 2)
-            x_min = max(0, pixel_x - 1)
-            x_max = min(width, pixel_x + 2)
-            
-            # Extract elevation window
-            elevation_window = self.dem_array[y_min:y_max, x_min:x_max]
-            
-            # Calculate slope using gradient
-            return self._calculate_slope_from_elevation_window(elevation_window)
-            
-        except Exception as e:
-            print(f"Error calculating slope from DEM: {e}", file=sys.stderr)
+
+        pixel_x, pixel_y = self.latlon_to_pixel(lat, lon)
+        if pixel_x is None or pixel_y is None:
+            print("latlon_to_pixel failed; fallback.", file=sys.stderr)
             return self._estimate_slope_fallback(lat, lon)
+
+        height, width = self.dem_array.shape
+        # Extract 3x3 window, padding if needed
+        y_min = pixel_y - 1
+        y_max = pixel_y + 2
+        x_min = pixel_x - 1
+        x_max = pixel_x + 2
+        window = np.full((3, 3), np.nan, dtype=self.dem_array.dtype)
+
+        for wy, iy in enumerate(range(y_min, y_max)):
+            for wx, ix in enumerate(range(x_min, x_max)):
+                if 0 <= iy < height and 0 <= ix < width:
+                    window[wy, wx] = self.dem_array[iy, ix]
+
+        if np.isnan(window).any():
+            print("Near edge; window partially padded.", file=sys.stderr)
+
+        print(f"DEM window at {lat},{lon} (pixel {pixel_x},{pixel_y}):\n{window}", file=sys.stderr)
+        slope_angle = self._calculate_slope_from_elevation_window(window)
+        print(f"Calculated slope: {slope_angle} degrees", file=sys.stderr)
+        return slope_angle
+
     
     def _calculate_slope_from_elevation_window(self, elevation_window):
         """Calculate slope angle from elevation window using gradients"""

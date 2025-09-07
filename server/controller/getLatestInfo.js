@@ -1,7 +1,11 @@
 // controllers/imageController.js
 import path from "path";
 import { spawn } from "child_process";
-import { fileURLToPath } from "url";
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export const getLatestInfo = (req, res) => {
   try {
@@ -59,6 +63,7 @@ export const getLatestInfo = (req, res) => {
                 ? JSON.parse(pythonOutput)
                 : null;
 
+            console.log(pythonResult)
             // Return combined results
             res.json({
                 locations: formattedResults,
@@ -72,6 +77,8 @@ export const getLatestInfo = (req, res) => {
             });
         }
     });
+
+    
 
     // Send JSON data to Python stdin
     pythonProcess.stdin.write(JSON.stringify(formattedResults));
