@@ -1,4 +1,7 @@
 // controllers/imageController.js
+import path from "path";
+import { spawn } from "child_process";
+import { fileURLToPath } from "url";
 
 export const getLatestInfo = (req, res) => {
   try {
@@ -22,19 +25,74 @@ export const getLatestInfo = (req, res) => {
         }
     ]
 
+    const pythonScriptPath = path.join(
+        __dirname,
+        "../../python_service/predict_rockfall.py"
+    );
+    const pythonProcess = spawn("python3", [pythonScriptPath]);
+
+    let pythonOutput = "";
+    let pythonError = "";
+
+    // Handle Python output
+    pythonProcess.stdout.on("data", (data) => {
+        pythonOutput += data.toString();
+    });
+
+    pythonProcess.stderr.on("data", (data) => {
+        pythonError += data.toString();
+    });
+
+    pythonProcess.on("close", (code) => {
+        if (code !== 0) {
+            console.error(`Python process exited with code ${code}`);
+            console.error("Python error:", pythonError);
+            return res.status(500).json({
+                message: "Error processing data with Python service",
+                error: pythonError,
+            });
+        }
+
+        try {
+            // Parse Python output if it returns JSON
+            const pythonResult = pythonOutput.trim()
+                ? JSON.parse(pythonOutput)
+                : null;
+
+            // Return combined results
+            res.json({
+                locations: formattedResults,
+                analysis: pythonResult,
+            });
+        } catch (parseError) {
+            console.error("Error parsing Python output:", parseError);
+            res.json({
+                locations: formattedResults,
+                analysis: pythonOutput.trim(),
+            });
+        }
+    });
+
+    // Send JSON data to Python stdin
+    pythonProcess.stdin.write(JSON.stringify(formattedResults));
+    pythonProcess.stdin.end();
+
+
+
+
     
 
 
-    res.status(200).json({
-    success: true,
-    formattedResults: [
-        {
-        lat,
-        lon,
-        imageURL
-        }
-    ]
-    });
+    // res.status(200).json({
+    // success: true,
+    // formattedResults: [
+    //     {
+    //     lat,
+    //     lon,
+    //     imageURL
+    //     }
+    // ]
+    // });
 
 
   } catch (error) {

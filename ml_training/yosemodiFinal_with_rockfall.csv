@@ -1,0 +1,926 @@
+Type of slope movement,Season,Year,Month,Day,Time (PST),Minimum volume,Median/best estimate volume,Maximum volume,Relative size,Rock unit,Triggering condition(s),Rockfall
+RF,,1857,,,,50000,200000,500000,extremely large,Kec,UKN,Yes
+RF,,1858,,,,-,185000,-,extremely large,Ks/Kec,UKN,Yes
+RF,Spring,1860,6,11,,500,2000,5000,large,Ks/Kec,F/T,Yes
+RF,Fall,1864,11,13,late pm,5000,20000,50000,very large,Ks,P,Yes
+RF,,"1868, pre",,,,5000,20000,50000,very large,Kec,UKN,Yes
+RF,Summer,1870,7,01-Jul,,-,70,-,medium,Khd,L,Yes
+RF,Summer,1870,8,6,early pm,5000,20000,50000,very large,Kgp,UNR,Yes
+RF,Spring,1872,3,26,02:30,5000,20000,50000,very large,Kgp,EQ,Yes
+RF,Spring,1872,3,26,02:30,-,36000,-,very large,Khd,EQ,Yes
+RF,Spring,1872,3,26,02:30,500,2000,5000,large,Ks,EQ,Yes
+RF,Spring,1872,3,26,02:30,500,2000,5000,large,Ks,EQ,Yes
+RF,Spring,1872,3,26,02:30,500,2000,5000,large,Khd,EQ,Yes
+RS,Spring,1872,3,26,03:30,500,2000,5000,large,Kgp,EQ,No
+SA,Winter,1873,3,5,,0.5,2,5,very small,Ks/Kec,SA,No
+RF,Winter,1873,3,12,,5000,20000,50000,very large,Ks/Kec,UKN,Yes
+RS,Fall,1886,,,,500,2000,5000,large,Qat,UKN,No
+RF,Spring,1886,3,21,am,-,1500,-,large,Kga,UKN,Yes
+RF,Spring,1886,4,17,,-,1000,-,large,Kec,UNR,Yes
+RS,Spring,1886,4,19,,50,200,500,medium,Ks,UKN,No
+RS,Spring,1886-1905,5,,,-,3,-,very small,Kgp/Kec,UKN,No
+RS,Summer,1886-1905,05-Sep,,,500,2000,5000,large,Kgp,UKN,No
+RS,Spring,1892,5,1,,0.5,2,5,very small,Kgp,UKN,No
+RS,Fall,1892,12,19,,5,20,50,small,Qat,P,No
+RS,Fall,1892,12,19,,5,20,50,small,Kec,P,No
+RS,Winter,1897,1,26,,5,20,50,small,Kgp,UKN,No
+RS,Winter,1898-99,,,,5,20,50,small,Khd,UKN,No
+RS,Spring,1900,4,,,5,20,50,small,Kgp/Kec,UKN,No
+RS,Spring,1901,4,,,5,20,50,small,Kgp/Kec,UKN,No
+RF,Spring,1901,5,,,0.5,2,5,very small,Khd,UKN,Yes
+RS,Spring,1901,5,,,5,20,50,small,Kgp/Kec,UKN,No
+RS,Spring,1901,6,,,5,20,50,small,Kec,UKN,No
+RS,Winter,1907,,,,5000,20000,50000,very large,Khd,R/S,No
+RS,Winter,1909,1,,,500,2000,5000,large,Kec,P,No
+RS,Winter,1909,1,,,50,200,500,medium,Kec/Kdg,P,No
+RS,Winter,1909,1,,,50,200,500,medium,Kec/Kdg,P,No
+RS,Winter,1911,1,16-31,,5,20,50,small,Ka/Kga,P,No
+RS,Spring,1912,,,,5,20,50,small,Kg/Kec,UKN,No
+RF,Fall,1912,12,,,50,200,500,medium,Ks/Kec,UKN,Yes
+RS,Spring,1913,6,4,,50,200,500,medium,Kga,P,No
+DS,Spring,1913,6,4,,5,20,50,small,Qat,P,No
+DS,Spring,1913,6,4,,5,20,50,small,Qat,P,No
+RS,Spring,1913,7,,,5,20,50,small,Khd,P,No
+RS,Fall,1913,12,,,50,200,500,medium,,P,No
+RS,Winter,1914,1,,,500,2000,5000,large,Kga,P,No
+RS,Winter,1914,1,,,50,200,500,medium,,UKN,No
+RS,Winter,1914,1,,,50,200,500,medium,Kgp/Kec,P,No
+RS,Winter,1914,1,,,5,20,50,small,Khd,P,No
+DF,Winter,1914,1,,,5,20,50,small,Qat,P,No
+DF,Winter,1914,1,,,5,20,50,small,Qat,P,No
+RF,Winter,1915-1916,,,,500,2000,5000,large,Khd,P,Yes
+RS,Winter,1915,1,27,,-,15,-,small,Kg/Kec,UKN,No
+RS,Winter,1917,2,,,50,200,500,medium,Ka/Kga,P,No
+DS,Winter,1917,02-Mar,,,-,57,-,medium,Qat,P,No
+RF,,1918?,,,,50,200,500,medium,Khd/Kgp ,UKN,Yes
+RS,Winter,1918,3,,,50,200,500,medium,Ka/Kga,P,No
+DS,Fall,1918,9,27-Jan,,50,200,500,medium,Qat,P,No
+RS,Fall,1918,9,27-Jan,,50,200,500,medium,Kg,P,No
+RS,Fall,1918,11,28,,5,20,50,small,Kga,UKN,No
+RS,Winter,1919,3,,,50,200,500,medium,Ka/Kga,UKN,No
+RF,Spring,1919,5,28,pm,5,20,50,small,Khd,P,Yes
+DS,Spring,1919,5,28,pm,5,20,50,small,Qat,P,No
+DF/DS,Spring,1919,5,28,pm,5,20,50,small,Qat,P,No
+DF,Spring,1919,5,28,pm,50,200,500,medium,Qat,P,No
+RS,Summer,1919,8,,,-,8450,-,very large,Kga,C,No
+RS,Summer,1919,8,17,17:30,50,200,500,medium,Kec,UKN,No
+RS,Winter,1920,3,,,5,20,50,small,Kec,UKN,No
+RF,Spring,1920,4,,,500,2000,5000,large,Kga,P,Yes
+RF,Fall,1920,9,28,20:30,5,20,50,small,Kid/Kec,UKN,Yes
+DS,Winter,1921,1,16-30,,500,2000,5000,large,Qat,P,No
+DS,Winter,1921,1,28,late pm,5,20,50,small,Qat,P,No
+RF,Summer,1921,9,16,13:15,5,20,50,small,Ks,UKN,Yes
+RS,Winter,1921,12,24-31,,50,200,500,medium,Ka/Kga,P,No
+RS,Winter,1922,2,,,0.5,2,5,very small,Ka/Kga,P,No
+DS,Winter,1922,2,,,50,200,500,medium,Qat,P,No
+RS,Winter,1922,2,,,500,2000,5000,large,Ka/Kga,P,No
+RS,Winter,1922,3,,,50,200,500,medium,Ka/Kga,P,No
+RS,Summer,1922,7,21,am,50,200,500,medium,Kgp,P,No
+RF,Winter,1923,1,"3,5",17:00,5000,20000,50000,very large,Ks,UNR,Yes
+RS,Winter,1924-1925,,,,5,20,50,small,Khd,P,No
+DS,Winter,1924-1925,,,,50,200,500,medium,Qat,UKN,No
+RS,Winter,1924,1,,,5,20,50,small,Kga,UKN,No
+RS,Summer,1924,9,,,50,200,500,medium,Kdg,UKN,No
+RS,Summer,1924,9,17,,-,242,-,medium,Kga,C,No
+RS,Fall,1924,11,9,,5,20,50,small,Khd,P,No
+RS,Fall,1924,11,09-Oct,,5,20,50,small,,P,No
+RS,Fall,1924,12,,,50,200,500,medium,,P,No
+RS,Winter,1925,2,,,500,2000,5000,large,Kgp/Kec,P,No
+RS,Winter,1925,2,5,pm,5,20,50,small,Ka/Kga,P,No
+RS/DF,Winter,1925,2,5,pm,-,1275,-,large,Ka/Kga,P,No
+RS,Winter,1926,3,15-17,,50,200,500,medium,Ka/Kga,UKN,No
+RS,Winter,1927,2,,,500,2000,5000,large,Ka/Kga,P,No
+RS,Fall,1927,10,,,50,200,500,medium,Ka/Kga,P,No
+RS,Fall,1927,10,,,50,200,500,medium,,P,No
+RS,Spring,1928,3,25-31,,5,20,50,small,Ka/Kga,R/S,No
+RS,Spring,1928,4,,,50,200,500,medium,,UKN,No
+RS,Winter,1930,1,,00:00,5,20,50,small,Ka/Kga,UKN,No
+RS,Winter,1930,1,,,50,200,500,medium,Ks,UKN,No
+RS,Winter,1930,2,,,5,20,50,small,Ka/Kga,UKN,No
+RS,Winter,1930,2,,,50,200,500,medium,,UKN,No
+RS,Winter,1930,2,1,,-,92,-,medium,,P,No
+RS/DS,Winter,1930,3,,,5,20,50,small,Kec,UKN,No
+RS,Winter,1930,3,17,,50,200,500,medium,Ks,UKN,No
+RS,Winter,1930,3,18,04:20,50,200,500,medium,Kec,UKN,No
+RS,Winter,1930,3,18,04:40,-,See ID 1930031801,-,See ID 1930031801,Kec,UKN,No
+RS,Winter,1930,3,18,05:00,-,See ID 1930031801,-,See ID 1930031801,Kec,UKN,No
+RS,Summer,1930,7,,,50,200,500,medium,Kdg,UKN,No
+RS,Summer,1930,9,8,,5,20,50,small,Khd,UKN,No
+RS,Fall,1930,11,,,5,20,50,small,Ka/Kga,P,No
+DS,Winter,1931-32,,,,5,20,50,small,Qat,SM,No
+RS/DS,Winter,1931-32,,,,-,9182,-,very large,Kec,SM,No
+RS,Winter,1931,1,,,5,20,50,small,Ka/Kga,UKN,No
+RS,Winter,1931,2,,,5,20,50,small,,UKN,No
+RS,Winter,1931,2,24,,0.5,2,5,very small,Ks/Kec,UKN,No
+RS,Spring,1931,6,,,5,20,50,small,,UKN,No
+RS,Fall,1931,10,25,,50,200,500,medium,Ka/Kga,P,No
+RS,Winter,1931,12,21-29,,-,180,-,medium,Ka/Kga,P,No
+RS,Winter,1931,12,21-29,,5,20,50,small,Ka/Kga,P,No
+RS,Winter,1931,12,21-29,,5,20,50,small,Ka/Kga,P,No
+RS,Winter,1931,12,21-29,,-,25,-,small,Ka,P,No
+RF,Winter,1931,12,26,,0.5,2,5,very small,Kga,P,Yes
+RS,Winter,1932-33,,,,5,20,50,small,Khd,UKN,No
+RS,Winter,1932-33,,,,5,20,50,small,Khd,UKN,No
+RS,Winter,1932-33,,,,5,20,50,small,Khd,UKN,No
+RS,Winter,1932,2,11,,-,51,-,medium,Kga,UKN,No
+DSL,Winter,1932,3,,,50,200,500,medium,Qat,C,No
+RS,Winter,1932,3,,,50,200,500,medium,Ks,UKN,No
+RF,Spring,1932,4,,,50,200,500,medium,Khd,UKN,Yes
+RF,Spring,1932,4,,,5,20,50,small,Khd,UKN,Yes
+RS,Spring,1932,4,,,5,20,50,small,Kec/Kdg,UKN,No
+RS,Spring,1932,4,,,-,1,-,very small,Kdg,UKN,No
+RF,Spring,1932,5,22,pm,500,2000,5000,large,Ks,F/T,Yes
+RF,Spring,1932,5,24,04:00,50,200,500,medium,Kgp/Kec,F/T,Yes
+RF,Spring,1932,5,25,pm,5,20,50,small,Ks,F/T,Yes
+RS,Spring,1932,5,25,pm,5,20,50,small,Kgp,F/T,No
+RS,Fall,1932,11,,,0.5,2,5,very small,Qat,UKN,No
+RS,Fall,1932,12,20,22:00,0.5,2,5,very small,,EQ,No
+RS,Winter,1933,3,,,-,118,-,medium,Kec,UKN,No
+RS,Winter,1933,3,19,,-,600,-,large,Kga,SM,No
+RS,Spring,1933,3,23,,500,2000,5000,large,Kga,SM,No
+RS,Fall,1933,10,30-31,,50,200,500,medium,Ka/Kga,"P,W",No
+RS,Winter,1934,1,,,5,20,50,small,Ka/Kga,UKN,No
+RS,Fall,1934,11,23,,50,200,500,medium,Kdg,P,No
+RS,Winter,1935,1,,,5,20,50,small,Kga,UKN,No
+RS,Winter,1935,2,,,5,20,50,small,Ka/Kga,P,No
+RS,Winter,1935,3,,,5,20,50,small,Ka/Kga,UKN,No
+RS,Spring,1935,4,,,50,200,500,medium,Ka/Kga,P,No
+DS,Spring,1935,4,,,5,20,50,small,Qat,P,No
+RS,Spring,1935,4,10,00:15,50,200,500,medium,Ks,UKN,No
+RS,Spring,1935,5,25,,50,200,500,medium,Kec,B,No
+RS,Summer,1935,7,,,5000,20000,50000,very large,Krm,UKN,No
+RS,Winter,1936-37,,,,50,200,500,medium,Kgp/Kec,UKN,No
+RS/DS,Winter,1936,2,,,50,200,500,medium,,P,No
+RS,Winter,1936,2,01-Jul,,5,20,50,small,Ks/Kec,P,No
+DS,Winter,1936,3,,,50,200,500,medium,Qat,UKN,No
+RS,Spring,1936,4,,,5,20,50,small,Ka/Kga,C,No
+DS,Spring,1936,4,,,500,2000,5000,large,Qat,UKN,No
+DS,Spring,1936,4,,,50,200,500,medium,Qat,C,No
+RS,Spring,1936,5,,,50,200,500,medium,Ks/Kec,UKN,No
+DF,Winter,1937,2,5,,500,2000,5000,large,Qat,P,No
+DS,Winter,1937,2,5,,5,20,50,small,Qat,P,No
+DF,Winter,1937,2,16,,5,20,50,small,Qat,P,No
+RS,Winter,1937,3,,,-,140,-,medium,Khd,UKN,No
+DF,Fall,1937,12,09-Dec,,-,765,-,large,Qat,P,No
+RS,Fall,1937,12,09-Dec,,50,200,500,medium,Kec/Kdg,P,No
+RS,Fall,1937,12,09-Dec,,5,20,50,small,Kec,P,No
+DF,Fall,1937,12,09-Dec,,500,2000,5000,large,Qat,P,No
+RS,Fall,1937,12,09-Dec,,50,200,500,medium,Pzme / Kga,P,No
+DF,Fall,1937,12,11,,500,2000,5000,large,Qat,P,No
+RS,Fall,1937,12,11,,50,200,500,medium,,P,No
+RS,Winter,1938-39,,,,5,20,50,small,Khd,UKN,No
+DS,Winter,1938,2,,,50,200,500,medium,Qat,P,No
+DSL,Spring,1938,5,14,18:00,50,200,500,medium,Qat,UNR,No
+RS,Summer,1938,8,2,04:30,50,200,500,medium,Kgp,UNR,No
+RS,Summer,1938,8,28,,5,20,50,small,Khd,UKN,No
+RS,Winter,1939-40,,,,50,200,500,medium,,UKN,No
+RS,Winter,1939-40,,,,50,200,500,medium,,UKN,No
+RS,Winter,1940,3,,,500,2000,5000,large,Ks,UKN,No
+RS,Winter,1941,2,,,5,20,50,small,Ks,UKN,No
+ESL,Winter,1941,2,,,50,200,500,medium,Qat,SM,No
+RS,Winter,1941,3,,,-,42,-,small,Kec,UKN,No
+DS,Winter,1941,3,,,5,20,50,small,Qat,SM,No
+DSL,Winter,1941,3,,,50,200,500,medium,Qat,SM,No
+RS/DS,Fall,1941,10,2,,50,200,500,medium,,W,No
+RS,Spring,1942,4,,,-,83,-,medium,Ks/Kec,UKN,No
+RS,Spring,1942,4,21,,-,864,-,large,Kec,UKN,No
+RS,Winter,1943,3,18,23:50,5000,20000,50000,very large,Kec,UKN,No
+RS,Winter,1945,2,2,,50,200,500,medium,Kga,UKN,No
+RS,Spring,1945,5,,,5000,20000,50000,very large,Kdg,UKN,No
+DS,Spring,1946,,,,-,460,-,medium,Qat,SM,No
+RS,Fall,1946,11,8,,5,20,50,small,Qat,P,No
+RS,Fall,1946,11,8,,5,20,50,small,Qat,P,No
+RS,Fall,1946,11,8,,50,200,500,medium,Ks/Kec,P,No
+RS,Fall,1946,11,8,,50,200,500,medium,,P,No
+RS,Fall,1946,11,8,,5,20,50,small,Kgp/Kec,P,No
+RS,Winter,1947-48,,,,50,200,500,medium,,UKN,No
+RF,Winter,1947,2,,,-,1,-,very small,Kec,UKN,Yes
+RF,Fall,1947,10,,,50,200,500,medium,Kga/Kec,UKN,Yes
+RS,Winter,1948,1,,,500,2000,5000,large,Ks,UKN,No
+RS,Winter,1948,1,,,50,200,500,medium,Ka/Kga,UKN,No
+RS,Winter,1948,3,,,500,2000,5000,large,,P,No
+RS,Spring,1948,4,,,50,200,500,medium,Ka/Kga,UKN,No
+RS,Spring,1948,4,,,500,2000,5000,large,Kec,UKN,No
+RF,Summer,1948,7,2,,0,0.2,0.5,extremely small,Khd,UKN,Yes
+RS,Fall,1948,10,,,5,20,50,small,Ka/Kga,UKN,No
+RS,Winter,1949,2,,,5,20,50,small,Ka/Kga,UKN,No
+RS,Winter,1949,2,,,5,20,50,small,,UKN,No
+RS,Summer,1949,7,,,-,3,-,very small,Khd/Kgp ,UKN,No
+RF,Summer,1949,7,21,,-,0.1,-,extremely small,Kgp,UKN,Yes
+RS,Fall,1949,10,23,13:40,5000,20000,50000,very large,Ks,"F/T, TS",No
+RS,Fall,1949,10,23,13:40,5000,20000,50000,very large,Ks,GV,No
+DS,Winter,1950,1,5,,-,138,-,medium,Qat,UKN,No
+RS,Summer,1950,7,,,-,23,-,small,Kec,UKN,No
+DF,Fall,1950,11,13-18,,-,100,-,medium,Qat,R/S,No
+RF,Fall,1950,11,13-18,,-,4,-,very small,Khd,R/S,Yes
+RS,Winter,1951-52,,,,-,84,-,medium,Khd,UKN,No
+RS,Winter,1951-52,,,,-,3,-,very small,Khd,UKN,No
+RS,Spring,1951,3,31,,-,765,-,large,Kga,C,No
+RS,Spring,1951,4,,,50,200,500,medium,Kga,C,No
+RS,Spring,1951,4,22,,-,12,-,small,Khd,UKN,No
+RS,Spring,1951,6,,,0.5,2,5,very small,Kec,UKN,No
+RS,Summer,1951,8,24,,-,15,-,small,Khd,UKN,No
+RS,Winter,1952,1,,,5,20,50,small,Ka,UKN,No
+RS,Winter,1952,3,,,50,200,500,medium,Ka/Kga,UKN,No
+RS,Summer,1952,8,,,-,5,-,small,Khd,UKN,No
+RS,Summer,1952,8,,,-,17,-,small,Khd,UKN,No
+RS,Winter,1953-54,,,,5,20,50,small,Ks/Kec,UKN,No
+RF,Spring,1953,4,,,-,153,-,medium,Kec,C,Yes
+RS,Winter,1954,3,,,5,20,50,small,Kec,UKN,No
+RS,Summer,1954,6,21,,-,2,-,very small,Khd,UNR,No
+RS,Fall,1954,10,30,22:44,5,20,50,small,Khd,EQ,No
+RS,Winter,1955,2,2,17:30,5,20,50,small,Ka/Kga,UKN,No
+RF,Spring,1955,5,15,,-,1,-,very small,Khd,UKN,Yes
+DF,Winter,1955,12,23,,50,200,500,medium,Qat,R/S,No
+RS,Winter,1955,12,23,,5,20,50,small,Ks/Kec,R/S,No
+RS,Winter,1955,12,23,,5,20,50,small,Khd,R/S,No
+DF,Winter,1955,12,23,,-,153,-,medium,Qat,R/S,No
+DF,Winter,1955,12,23,,-,31,-,small,Qat,R/S,No
+DF,Winter,1955,12,23,,-,421,-,medium,Qat,R/S,No
+DF,Winter,1955,12,23,,-,50,-,medium,Qat,R/S,No
+RS,Winter,1955,12,23,,50,200,500,medium,Ka,R/S,No
+DS,Winter,1955,12,23,,500,2000,5000,large,Qat,R/S,No
+RS,Winter,1955,12,23,,50,200,500,medium,,R/S,No
+RS,Winter,1956,1,14,,5,20,50,small,Kga,UKN,No
+RS,Spring,1956,6,,,-,77,-,medium,Kga,UKN,No
+RF,Spring,1957,3,24,,-,1,-,very small,Khd,UKN,Yes
+RS,Summer,1957,8,4,23:00,50,200,500,medium,Kgp,UKN,No
+RS,Winter,1958,3,,,-,230,-,medium,,P,No
+DS,Winter,1958,3,,,-,383,-,medium,Qat,P,No
+RS,Spring,1958,5,,,5,20,50,small,Khd,UKN,No
+RF,Fall,1958,12,,,-,2,-,very small,Kgp,UKN,Yes
+RF,Spring,1960,3,22,,-,2,-,very small,Kgp,UKN,Yes
+RS,Spring,1960,4,23,,500,2000,5000,large,Ka/Kga,UKN,No
+RS,Spring,1961,,,,5,20,50,small,Krm,UKN,No
+RS,Fall,1962,11,17,16:10,5,20,50,small,Kec/Ks,UKN,No
+RS,Spring,1963,,,,0.5,2,5,very small,Khd,UKN,No
+RS,Spring,1963,,,,-,1,-,very small,Qat,UKN,No
+RS,Winter,1963,1,31-Mar,,50,200,500,medium,Ks,R/S,No
+DF,Winter,1963,2,,,-,230,-,medium,Qat,R/S,No
+DF,Winter,1963,2,,,-,77,-,medium,Qat,R/S,No
+RS,Winter,1963,3,,,-,23,-,small,Kec,UKN,No
+RS,Winter,1963,3,,,5,20,50,small,Khd,UKN,No
+RF,Spring,1963,4,,,5,20,50,small,Kga,UKN,Yes
+RS,Spring,1963,4,17,am,-,207,-,medium,Ka/Kga,UKN,No
+RS,Spring,1963,4,20,pm,50,200,500,medium,Ka/Kga,P,No
+RS,Spring,1963,6,7,,50,200,500,medium,Kg,UKN,No
+RS,Spring,1964,,,,-,1,-,very small,Kg,UKN,No
+RS,Spring,1965,5,,,5,20,50,small,Kgp/Kec,UKN,No
+DF,Summer,1965,7,,,50,200,500,medium,Qat,P,No
+RS,Spring,1966,,,,5,20,50,small,Kgp/Ks,UKN,No
+RS,Spring,1967,,,,-,9,-,small,Khd,UKN,No
+RS,Spring,1967,,,,5,20,50,small,Khd,UKN,No
+RF,Summer,1967-68,07-Aug,,9:30-10:30,-,1500,-,large,Khd,UNR,Yes
+RS,,1968,,,,5,20,50,small,Kec,UKN,No
+RS,Winter - Spring,1970,,,,5,20,50,small,Khd,UKN,No
+RS,Winter,1970-71,,,,50,200,500,medium,Kgp,UKN,No
+RS,Fall,1970,12,,,-,6000,-,very large,Kec,UKN,No
+RS,Spring,1971,,,,-,15,-,small,Kyc / Kec,UKN,No
+RF,,1971?,,,,-,160,-,medium,Kec,UKN,Yes
+RS,Winter,1971,3,4,am,-,18000,-,very large,Kec,UNR,No
+RS,Spring,1972,,,,5,20,50,small,Kec,UKN,No
+RS,Spring,1973,,,,5,20,50,small,Khd,UKN,No
+RS,Spring,1973,6,,,5,20,50,small,Kec,UNR,No
+RF,Spring,1973,6,,,50,200,500,medium,Khd,UNR,Yes
+RS,Spring,1974,,,,5,20,50,small,Qat,UKN,No
+DS,Spring,1974,,,,5,20,50,small,Qat,SM,No
+RF,Winter,1974,3,15,,-,1,-,very small,Khd,F/T,Yes
+RS,Winter - Spring,1975,,,,5,20,50,small,Kgi / Kg,UKN,No
+RS,Spring,1975,,,,5,20,50,small,Krm,UKN,No
+RF,,1975,,,,50,200,500,medium,Kt,UKN,Yes
+RF,Spring,1975,5,,,-,200,-,medium,Kec,UKN,Yes
+RF,,1976,,,,-,510,-,large,Kec,UKN,Yes
+RS,,1976-77,,,,50,200,500,medium,Kec,UKN,No
+RF,Spring,1977,,,,0.5,2,5,very small,Khd,UKN,Yes
+RF,Spring,1977,,,,-,2280,-,large,Kec,"L,P",Yes
+RS,Spring,1977,,,,5,20,50,small,Ks,UKN,No
+RF,Spring,1977,,,,0.5,2,5,very small,Khd,UKN,Yes
+RF,Spring,1977,,,,-,3000,-,large,Khd,UKN,Yes
+RS,Spring,1977,,,,5,20,50,small,Kgp,UKN,No
+RS,Spring,1977,,,,5,20,50,small,Kgp,UKN,No
+DF,Summer,1977,6,28,14:30,500,2000,5000,large,Qat,P,No
+RS,Spring,1978,,,,500,2000,5000,large,Krm,UKN,No
+RS,Spring,1978,,,,5,20,50,small,Ks,UKN,No
+RS,Summer,1978,9,,,5,20,50,small,Khd,UKN,No
+RS,Spring,1980,,,,0.5,2,5,very small,Khd,F/T,No
+RF,Winter,1980,1,12,06:17,500,2000,5000,large,Kec,P,Yes
+DF,Winter,1980,1,12,11:00,50,200,500,medium,Qat,P,No
+RS,Winter,1980,1,Dec-13,,50,200,500,medium,Ks,P,No
+RS,Winter,1980,1,13,21:00,5,20,50,small,Kec,P,No
+RS,Winter,1980,1,13,23:59,50,200,500,medium,Pzme / Kga,P,No
+RF,Spring,1980,5,25,08:00,50,200,500,medium,Khd,EQ,Yes
+RF,Spring,1980,5,25,08:00,50,200,500,medium,Qat,EQ,Yes
+RS,Spring,1980,5,25-27,,5,20,50,small,Kec,EQ,No
+RS,Spring,1980,5,25-27,,50,200,500,medium,Khd,EQ,No
+RF,Spring,1980,5,27,06:51,50,200,500,medium,Ka,EQ,Yes
+RF,Spring,1980,5,27,,5,20,50,small,Ks,EQ,Yes
+RF,Spring,1980,5,27,,0.5,2,5,very small,Khd,EQ,Yes
+RS,Spring,1980,5,27,,500,2000,5000,large,Ks,EQ,No
+RF,Spring,1980,5,27,,-,8,-,small,Ks,EQ,Yes
+RF,Fall,1980,10,4,08:00-09:00,-,100,-,medium,Khd,UNR,Yes
+RF,Fall,1980,10,6,12:00-12:30,-,1,-,very small,Kec,UNR,Yes
+RS,Fall,1980,10,7,21:50,5,20,50,small,Khd,UKN,No
+RF,Fall,1980,11,16,12:06,-,1500,-,large,Ks,F/T,Yes
+RS,Winter - Spring,1981,,,,5,20,50,small,Kga/Kec,UNR,No
+DF,Spring,1981,,,,50,200,500,medium,Kec,P,No
+RS,Winter,1981,3,4,,0.5,2,5,very small,Kec,UKN,No
+RS,Winter,1981,3,4,16:30,500,2000,5000,large,Kec,C,No
+RF,Spring,1981,4,9,17:50,-,104,-,medium,Khd,B,Yes
+RS,Spring,1981,5,,,5,20,50,small,Kgp,UNR,No
+RF,Spring,1981,5,8,13:32,-,173,-,medium,Ks,B,Yes
+RF,Fall,1981,11,,,50,200,500,medium,,UKN,Yes
+RS,Winter,1981,12,8,23:00,-,24000,-,very large,Kec,P,No
+RS,Fall,1982,,,,-,1,-,very small,Kyc/Kec,P,No
+RS,Fall,1982,,,,-,1,-,very small,Kyc/Kec,P,No
+RF,Winter,1982?,,,,50,200,500,medium,Khd,UKN,Yes
+RF,Winter,1982-1983,,,,-,1,-,very small,Khd,UNR,Yes
+RS,Spring,1982,4,3,22:20,-,100000,-,extremely large,Kec,P,No
+DS,Spring,1982,4,4,,50,200,500,medium,Qat,P,No
+RS,Spring,1982,4,8,13:10,-,1730,-,large,Ka/Kga,B,No
+RF,Spring,1982,6,10,,-,1,-,very small,Ks,UNR,Yes
+RF,Fall,1982,10,25,03:00,-,38,-,small,Kec,L ,Yes
+RF,Fall,1982,10,25,23:01,-,249,-,medium,Ks,P,Yes
+RS,Winter - Spring,1983,,,,-,25,-,small,Kic,UNR,No
+RS,Spring,1983,,,,-,1,-,very small,Kcp,UNR,No
+RF,Spring,1983,5,2,15:42,50,200,500,medium,Khd,EQ,Yes
+RF,Spring,1983,5,2,15:42,5,20,50,small,Khd,EQ,Yes
+RF,Spring,1983,5,2,15:42,5,20,50,small,Ks,EQ,Yes
+RF,Spring,1983,5,2,15:42,50,200,500,medium,Ks,EQ,Yes
+DS,Spring,1983,5,20,15:30,500,2000,5000,large,Qat,UNR,No
+RS,Spring,1984,,,,0.5,2,5,very small,Kgp,UNR,No
+RS,Spring,1984,,,,-,1,-,very small,Kgp,UNR,No
+RF,Fall,1984,,,,-,7,-,small,Qat,UNR,Yes
+RF,Spring,1984,5,1,,5,20,50,small,Kgp,UNR,Yes
+DF,Summer,1984,7,17,pm,50,200,500,medium,Khd,P,No
+RF,Fall,1984,10,12,,5,20,50,small,Ks,UNR,Yes
+RS,Winter,1985,2,,,50,200,500,medium,Krm,UKN,No
+RS,Winter,1985,2,23,,5,20,50,small,Kga/Kec,UNR,No
+DF,Winter,1985,3,,,500,2000,5000,large,Qat,P,No
+RS,Spring,1985,4,,,5,20,50,small,Kgp,UKN,No
+RF,Summer,1985,7,20,04:30,5,20,50,small,Ks,P,Yes
+DF,Summer,1985,08-Sep,,,5,20,50,small,Qat,UKN,No
+RF,Fall,1985,9,25,,-,9,-,small,Kec,UNR,Yes
+DS,Fall,1985,10,7,,50,200,500,medium,Ks,P,No
+DF,Fall,1985,11,,,50,200,500,medium,Qat,P,No
+RS,Fall,1985,11,21,20:30,5,20,50,small,Kgp,P,No
+RS,Fall,1985,11,29,07:30,500,2000,5000,large,Ks,UNR,No
+RF,Fall,1985,12,8,,50,200,500,medium,Ks,F/T,Yes
+RS,Spring,1986,,,,50,200,500,medium,Kec,UNR,No
+RS,Winter,1986,1,30,08:50,5,20,50,small,Kec,P,No
+DF,Winter,1986,02-Mar,,,-,60,-,medium,Qat,P,No
+RS,Winter,1986,2,7,13:20,-,104,-,medium,Khd,P,No
+RS,Winter,1986,2,13,16:30,-,415,-,medium,Khd,P,No
+DF,Winter,1986,2,17-19,,500,2000,5000,large,Qat,P,No
+DS,Winter,1986,2,17-19,,500,2000,5000,large,Qat,P,No
+DF,Winter,1986,2,17-19,,50,200,500,medium,Khd,P,No
+DF,Winter,1986,2,17-19,,-,4500,-,large,Qat,P,No
+DF,Winter,1986,2,17-19,,50,200,500,medium,Qat,P,No
+DF,Winter,1986,2,17-19,,50,200,500,medium,Qat,P,No
+RS,Winter,1986,2,17-19,,50,200,500,medium,Kga,P,No
+DS,Winter,1986,2,17-19,,5,20,50,small,Qat,P,No
+DF,Winter,1986,2,17-19,,50,200,500,medium,Qat,P,No
+DF,Winter,1986,2,18,late pm,500,2000,5000,large,Qat,P,No
+RF,Winter,1986,3,,,-,4,-,very small,Kgp/Kec,P,Yes
+RF,Winter,1986,3,,,-,2,-,very small,Kec,P,Yes
+RS,Winter,1986,3,8,,-,691,-,large,Khd,P,No
+RF,Spring,1986,4,,,0.5,2,5,very small,Kgp/Kec,P,Yes
+RS,Spring,1986,4,2,,5,20,50,small,Ks,P,No
+RS,Spring,1986,05-Jun,,,-,1,-,very small,Khd,UNR,No
+RF,Spring,1986,5,6,11:01,-,31,-,small,Kec,UNR,Yes
+RF,Spring,1986,5,27,04:23,50,200,500,medium,Ks,UNR,Yes
+RF,Spring,1986,5,28,04:33,5,20,50,small,Ks,UNR,Yes
+RS,,1987-1989,,,,-,128,-,medium,Khd,UKN,No
+RF,Winter,1987,3,10,14:47,-,600000,-,extremely large,Kec,UNR,Yes
+RF,Winter,1987,3,10,17:10,-,See ID 1987031001,-,See ID 1987031001,Kec,UNR,Yes
+RF,Spring,1987,4,12,am,-,118,-,medium,Khd,SM,Yes
+RS,Spring,1987,4,16,,0.5,2,5,very small,Kgp,SM,No
+RS,Spring,1987,5,2,,-,102,-,medium,Khd,UNR,No
+RS,Spring,1987,6,3,14:10,-,15,-,small,Khd,B,No
+RF,Summer,1987,8,10-Dec,,5,20,50,small,Kec,UKN,Yes
+RF,Summer,1987,8,16,18:30,5,20,50,small,Khd,UNR,Yes
+RF,Summer,1987,9,1,,500,2000,5000,large,Khd,UNR,Yes
+RF,Summer,1987,9,1,,5,20,50,small,Ks,UKN,Yes
+RF,Fall,1987,12,,,-,1,-,very small,Khd,F/T,Yes
+RF,Summer,1988,8,23,14:30,-,1,-,very small,Khd,UNR,Yes
+RS,Summer,1988,9,18,12:40,-,3,-,very small,Khd,UNR,No
+RF,Summer,1988,9,18,15:15,-,1,-,very small,Khd,UNR,Yes
+RF,Spring,1989,,,,0.5,2,5,very small,Kgp,UNR,Yes
+RF,,1989,,,,50,200,500,medium,Klt,UKN,Yes
+RS,Winter,1989,1,21-28,,-,1,-,very small,Kec/Kdg,P,No
+RF,Winter,1989,2,14,22:30,-,142,-,medium,Kec/Kdg,UNR,Yes
+DF,Winter,1989,3,5,late pm,50,200,500,medium,Qat,P,No
+RS,Winter,1989,3,15,,-,44,-,small,Krm,P,No
+RS,Spring,1989,3,29,early pm,0.5,2,5,very small,Ks,UKN,No
+RF,Spring,1989,4,,,-,69,-,medium,Qat,UNR,Yes
+RF,Summer,1989,7,25,17:13,0.5,2,5,very small,Ks,UNR,Yes
+RF,Spring,1990,4,23,early am,0.5,2,5,very small,Khd,P,Yes
+RF,Fall,1990,10,,am,5,20,50,small,Khd,UKN,Yes
+RS,Fall,1990,10,23,22:15,-,518,-,large,Kec,EQ,No
+RS,Fall,1990,10,23,22:15,5,20,50,small,Ka/Kga,EQ,No
+RF,Fall,1990,10,23,22:15,5,20,50,small,Ks,EQ,Yes
+RS,Fall,1990,10,23,22:15,5,20,50,small,Kg,EQ,No
+DSL,Winter,1991-1992,,,,50,200,500,medium,Qat,UKN,No
+RF,Winter,1992,2,,,100,150,200,medium,Kid,UKN,Yes
+RF,Winter,1992,2,18,22:45,-,173,-,medium,Kec,P,Yes
+DF,Summer,1992,7,14,late pm,-,675,-,large,Qat,P,No
+RF,Summer,1992,7,24,05:05,-,1100,-,large,Ks,UNR,Yes
+RF,Winter,1993,3,,,600,900,1200,large,Kec/Kid,UKN,Yes
+RS,Winter,1995-1996,1,,,-,3,-,very small,Khd,UNR,No
+RF,Winter,1995,3,16,,5,20,50,small,Kga,UKN,Yes
+RF,Winter - Spring,1996,01-Apr,,,-,42500,-,very large,Khd,UNR,Yes
+DF,Spring,1996,5,16,,-,40,-,small,Qat,P,No
+RS/RF,Summer,1996,7,10,17:52,-,6650,-,very large,Kgp,UNR,No
+RS/RF,Summer,1996,7,10,17:52,-,31350,-,very large,Kgp,GV,No
+RS/RF,Summer,1996,7,11,early am,-,3750,-,large,Kgp,UNR,No
+RS/RF,Summer,1996,7,11,03:45,-,See ID 1996071101,-,See ID 1996071101,Kgp,UNR,No
+RF,Summer,1996,9,1,08:30,5,20,50,small,Ks,UKN,Yes
+RF,Fall,1996,11,17,16:00,-,3209,-,large,Khd,P,Yes
+DF,Winter,1996-1997,12,30-Jan,,-,8575,-,very large,Qat,R/S,No
+ESL,Winter,1996-1997,12,30-Jan,,5,20,50,small,Qat,R/S,No
+RF,Winter,1996-1997,12,30-Jan,,5,20,50,small,Kec/Kdg,R/S,Yes
+ESL,Winter,1996-1997,12,30-Jan,,-,950,-,large,Qat,R/S,No
+RS,Winter,1996-1997,12,30-Jan,,-,1,-,very small,Khd,R/S,No
+RS,Winter,1996-1997,12,30-Jan,,-,1,-,very small,Qat,R/S,No
+RS,Winter,1996-1997,12,30-Jan,,0.5,2,5,very small,Ks/Pzme,R/S,No
+DF,Winter,1996-1997,12,30-Jan,,-,1600,-,large,Qat,R/S,No
+RF,,1997,,,,2000,2250,2500,large,Khd,UKN,Yes
+RF,Winter,1997,1,,,1000,1200,1400,large,Kec,UKN,Yes
+RS,Winter,1997,1,1,11:00 - 12:00,5,20,50,small ,Ks,R/S,No
+RS,Winter,1997,1,2,late pm,-,2,-,very small,Kgp,R/S,No
+RF,Summer,1997,6,20-27,,0.5,2,5,very small,Kec/Kbv,UKN,Yes
+RF,Summer,1997,6,25,19:00,5,20,50,small,Kec/Kbv,UNR,Yes
+RS,Summer,1997,9,14,,5,20,50,small,Khd,UKN,No
+RF,Summer,1997,9,20,,5,20,50,small,Kec/Ks,UNR,Yes
+RF,Winter,1998-1999,,,,5,20,50,small,Kcp,UKN,Yes
+RF,Spring,1998,4,17,09:01,-,45,-,small,Kgp,UNR,Yes
+RF,Spring,1998,6,6,11:00-11:30,5,20,50,small,Kgp,UNR,Yes
+RF,Spring,1998,6,6,11:00-11:30,5,20,50,small,Kgp,UNR,Yes
+RF,Summer,1998,8,,07:00,3,4,5,very small,Kt,UNR,Yes
+RF,Fall,1998,11,16,17:30,-,563,-,large,Kgp,"P, SM",Yes
+RF,Fall,1998,11,16,22:50,-,See ID 1998111601,-,See ID 1998111601,Kgp,"P, SM",Yes
+RS,Fall,1998,11,29,07:15,5,20,50,small,Kgp,P,No
+RF,,1999,,,,500,1000,1500,large,Kec,UKN,Yes
+RF,Spring,1999,4,21,12:00,-,21,-,small,Kec,UNR,Yes
+RF,Spring,1999,5,25,08:12,-,41,-,small,Kgp,UNR,Yes
+RF,Spring,1999,6,13,18:35,-,213,-,medium,Kgp,UNR,Yes
+RF,Spring,1999,6,15,21:13,-,3,-,very small,Kgp,UNR,Yes
+RF,Spring,1999,6,17,early am,5,20,50,small,Khd,UNR,Yes
+RF,Spring,1999,6,17,,0.5,2,5,very small,Kgp,UNR,Yes
+RF,Summer,1999,7,14,08:57,-,2.3,-,very small,Kgp,P,Yes
+RF,Summer,1999,8,11,06:15,29,36,43,small,Khd,UNR,Yes
+RF,Fall,1999,10,02-Mar,,0.5,2,5,very small,Kec,UKN,Yes
+RF,Fall,1999,10,28,07:50,0.5,2,5,very small,Kgp,P,Yes
+RF,Fall,1999,11,8,04:20,500,2000,5000,large,Ks,UNR,Yes
+RF,Fall,1999,11,9,08:18,-,4250,-,large,Ks,"P, F/T",Yes
+RF,Winter,2000,2,8,12:25,-,3,-,very small,Kga,UNR,Yes
+RF,Winter,2000,2,22,08:35,-,17477,-,very large,Ks,UNR,Yes
+RF,Winter,2000,2,22,08:55,-,40,-,small,Ks,UNR,Yes
+RF,Winter,2000,3,1,04:54,-,21747,-,very large,Ks,"P, F/T",Yes
+RF,Winter,2000,3,6,04:00,-,281,-,medium,Ks,UNR,Yes
+RF,Winter,2000,3,14,10:47,0.5,2,5,very small,Kgp,SM,Yes
+RS,Spring,2000,4,1,early pm,-,113,-,medium,Khd,UNR,No
+RF,Spring,2000,4,2,03:00,-,1,-,very small,Ks,UNR,Yes
+RF,Spring,2000,5,17,11:25,-,14,-,small,Ks,P,Yes
+RF,Spring,2000,6,14,13:08,0,1,1,very small,Kgp,UNR,Yes
+RS,Summer,2000,8,29,06:30,-,29,-,small,Khd,UNR,No
+RF,Summer,2000,8,29,21:33,-,21,-,small,Kgp,UNR,Yes
+RF,Fall,2000,11,10,12:05,-,108,-,medium,Ks,"P, F/T",Yes
+RF,Winter,2001,2,12,02:30,-,8,-,small,Kga,R/S,Yes
+RS,Winter,2001,3,18,15:00,-,6,-,small,Qat,UNR,No
+RF,Spring,2001,5,6,08:00,0,0.2,0.5,extremely small,Kgp,SM,Yes
+RF,Spring,2001,5,17,14:45,0.5,2,5,very small,Ks,UNR,Yes
+RF,Summer,2001,6,22,09:00,0.5,2,5,very small ,Ks,UNR,Yes
+RF,Summer,2001,7,8,am,0.5,2,5,very small,Khd,UNR,Yes
+RF,Summer,2001,7,8,03:00,5,20,50,small ,Kgp,P,Yes
+RF,Summer,2001,7,25,06:00,3,4,5,very small,Ks,UNR,Yes
+RF,Summer,2001,7,27,10:30,-,300,-,medium,Kgp,UNR,Yes
+DF,Summer,2001,8,02-Aug,,-,5356,-,very large,Qat,P,No
+RF,Summer,2001,8,15,08:00,-,13,-,small,Kgp,UNR,Yes
+RF,Summer,2001,9,12,am,0.5,2,5,very small,Ks,UKN,Yes
+RF,Summer,2001,9,14,21:45,56,60,64,medium,Kgp,UNR,Yes
+RF,Summer,2001,9,14,22:45,-,See ID 2001091401,-,See ID 2001091401,Kgp,UNR,Yes
+RF,Fall,2001,9,25,03:30,5,6,8,small,Khd,P,Yes
+RF,Fall,2001,9,25,03:30,-,96,-,medium,Kgp,P,Yes
+RF,Fall,2001,10,10,02:53,0,0.05,0.1,extremely small,Kgp,UNR,Yes
+RF,Fall,2001,10,30,07:52,0.5,2,5,very small,Kec,UNR,Yes
+RF,Fall,2001,11,12,21:50,10,13,15,small,Kgp,P,Yes
+RF,Fall,2001,11,25,15:00,20,30,40,small,Ka,P,Yes
+RF,Spring,2002,3,25,9:00 - 9:30,0.5,2,5,very small,Khd,F/T,Yes
+RF,Spring,2002,5,,,5,20,50,small,Kec,UKN,Yes
+RS,Spring,2002,5,20,17:00,-,25,-,small,Kga,P,No
+DS,Spring,2002,5,21,21:30,-,43,-,small,Ks,UNR,No
+RF,Spring,2002,5,27,11:00,5,20,50,small,Kec,UKN,Yes
+RF,Spring,2002,6,17,12:20,5,20,50,small,Kec,UNR,Yes
+RF,Summer,2002,7,10,09:27,-,35,-,small,Khd,UNR,Yes
+RF,Summer,2002,7,10,09:27,-,13,-,small,Khd,UNR,Yes
+RF,Fall,2002,10,2,13:15,20,55,100,medium,Khd,P,Yes
+DS,Fall,2002,11,07-Sep,,50,200,500,medium,Ks,P,No
+RF,Spring,2003,5,5,late pm,0.5,2,5,very small,Khd,P,Yes
+RF,Spring,2003,6,6,19:30,-,636,-,large,Khd,UNR,Yes
+RF,Spring,2003,6,19,05:18,-,See ID 2003060601,-,See ID 2003060601,Khd,UNR,Yes
+RF,Summer,2003,6,29,07:00,-,See ID 2003060601,-,See ID 2003060601,Khd,UNR,Yes
+RF,Summer,2003,7,17,11:03,-,15,-,small,Khd,UNR,Yes
+RF,Summer,2003,7,18,01:00,-,297,-,medium,Khd,UNR,Yes
+RF,Summer,2003,7,18,12:20,-,See ID 2003071801,-,See ID 2003071801,Khd,UNR,Yes
+RF,Summer,2003,7,18,12:28,-,See ID 2003071801,-,See ID 2003071801,Khd,UNR,Yes
+RF,Summer,2003,7,20,22:40,-,16,-,small,Kgp,UNR,Yes
+RF,Summer,2003,7,21,00:00,-,298,-,medium,Khd,UNR,Yes
+RF,Summer,2003,7,22,11:10,10,13,16,small,Ks,UNR,Yes
+RF,Fall,2003,10,4,14:45,5,20,50,small,Ks,UNR,Yes
+RS,Fall,2003,12,,,-,6,-,small,Kga,UNR,No
+RF/RS,Fall,2003,12,,,-,100,-,medium,Kga,UNR,No
+RS,Winter,2003-2004,12-Jan,,,-,43,-,small,Kec,P,No
+RF/RS,Fall - Winter,2003,12,20-23,,-,170,-,medium,Kec,UNR,No
+DS,Winter,2003,12,22,12:07,50,200,500,medium,Ks,"EQ, P",No
+RF,Winter,2003,12,26,00:45,-,204,-,medium,Kgp,"P, F/T",Yes
+RF,Winter,2003,12,26,,-,61,-,medium,Ks,P,Yes
+RF/RS,Winter,2003,12,26,,50,200,500,medium,Ks,P,No
+RS,Winter,2003,12,30,20:17,5,20,50,small,Kec,P,No
+RF,Winter,2004,1,1,17:25,5,20,50,small,Ks/Kec,P,Yes
+RS,Winter,2004,1,6,,-,126,-,medium,Khd,UNR,No
+RS,Winter,2004,1,6,22:59,-,7,-,small,Pzme/Kga,UNR,No
+RF,Winter,2004,1,7,16:52,0.5,2,5,very small,Kec,P,Yes
+DF,Winter,2004,1,7,18:42,0.5,2,5,very small,Qat,SM,No
+DS,Winter,2004,1,8,18:37,-,7,-,small,Qat,UNR,No
+RF,Winter,2004,1,10,23:00,-,10,-,small,Khd/Kgp ,UNR,Yes
+RS/RF,Winter,2004,1,13,18:30,0.5,2,5,very small,Kgp,SM,No
+RF,Winter,2004,2,25,18:45,-,5,-,small,Kgp,SM,Yes
+RF,Winter,2004,2,29,am,5,20,50,small,Krm,UKN,Yes
+RF,Winter,2004,3,,na,5,20,50,small,Kec,UKN,Yes
+RF,Winter,2004,3,8,14:30,-,10,-,small,Kec,UNR,Yes
+RF,Spring,2004,3,26,12:25,-,5,-,small,Ka,UKN,Yes
+RF,Spring,2004,5,12,10:40,5,20,50,small,Khd,UNR,Yes
+RF,Spring,2004,5,15,11:23,5,20,50,small,Kbv,UNR,Yes
+RF,Spring,2004,5,29,12:00,5,20,50,small ,Kgp,UNR,Yes
+RF,Summer,2004,7,13,11:45,-,425,-,medium,Kgp,UNR,Yes
+RF,Summer,2004,8,13,19:04,-,10,-,small,Khd,UNR,Yes
+RF,Summer,2004,8,19,09:25,0,0.2,0.5,extremely small,Kgp,UNR,Yes
+DS,Summer,2004,8,30,14:45,-,75,-,medium,Qat,UNR,No
+RF,Summer,2004,9,9,18:15,-,5,-,small,Kgp,UNR,Yes
+RF,Fall,2004,10,12,13:51,-,10,-,small,Kgp/Kec,UKN,Yes
+RF,Fall,2004,10,16,am,5,20,50,small,Kgp/Kec,UNR,Yes
+RS,Fall,2004,10,19,19:15,0.5,2,5,very small,Kgp,P,No
+DF,Fall,2004,10,20,,5,20,50,small,Qat,P,No
+RF,Fall,2004,10,20,10:50,500,2000,5000,large,Ks,P,Yes
+RS,Fall,2004,10,20,,-,5,-,small,Kec/Kdg,P,No
+RS,Fall,2004,10,21,11:01,0.5,2,5,very small,Kgp,P,No
+RF,Fall,2004,10,29,16:15,-,10,-,small,Kgp,UKN,Yes
+RF,Winter - Spring,2005,,,,-,40,-,medium,Khd,UKN,Yes
+RS,Winter,2005,1,4,16:29,-,20,-,small,Kga,P,No
+RS,Winter,2005,1,7,21:00,-,10,-,small,Pzme,P,No
+RF,Winter,2005,1,8,00:30,-,1,-,very small,Kec,P,Yes
+RF,Winter,2005,1,8,01:35,-,1,-,very small,Kga,P,Yes
+RF,Winter,2005,1,9,15:14,-,1,-,very small,Kec,P,Yes
+RF,Winter,2005,1,9,19:27,-,10,-,small,Khd/Kgp ,P,Yes
+RF,Winter,2005,1,10,15:08,5,20,50,small,Ks/Kec,P,Yes
+RS,Winter,2005,1,11,15:16,-,10,-,small,Ka,P,No
+RF,Winter,2005,1,16,03:19,5,20,50,small,Khd/Kgp ,UKN,Yes
+RF,Winter,2005,1,27,08:37,-,20,-,small,Ks,UKN,Yes
+RS,Winter,2005,3,20,09:21,-,5,-,very small,Kec,P,No
+RF,Spring,2005,3,27,18:30,-,1,-,very small,Ka,P,Yes
+RF,Spring,2005,3,30,15:20,5,20,50,small,Kgp,P,Yes
+RF,Spring,2005,4,17,22:10,5,20,50,small,Ks/Kec,UKN,Yes
+RF,Spring,2005,5,9,02:16,-,1,-,very small,Kec/Kdg,UKN,Yes
+RF,Spring,2005,5,14,17:30,-,10,-,small,Kec,UKN,Yes
+RF,Spring,2005,5,15,10:18,5,20,50,small,Khd/Kgp ,UKN,Yes
+RF,Spring,2005,6,19,05:45,-,50,-,medium,Khd,UKN,Yes
+RF,Summer,2005,7,1,18:00,-,40,-,medium,Khd,UNR,Yes
+RF,Summer,2005,7,16,08:30,0.5,2,5,very small ,Kgp,UNR,Yes
+RF,Summer,2005,7,16,09:30,0.5,2,5,very small,Kgp,UNR,Yes
+RF,,2005-2006,10-Jul,,,-,2,-,very small,Kgp,UKN,Yes
+RF,Fall,2005,10,25,14:45,-,144,-,medium,Kgp,"P, RW",Yes
+RF,Fall,2005,11,29,03:30,0.5,2,5,very small,Kec,P,Yes
+RS,Fall,2005,12,1,06:30,0.5,2,5,very small,Kjdg,P,No
+RF,Fall,2005,12,2,15:00,-,15,-,small,Khd,P,Yes
+RF,Fall,2005,12,2,18:15,5,20,50,small,Ks/Kec,P,Yes
+RF,Fall,2005,12,3,08:56,-,20,-,small,Ks,P,Yes
+RS,Fall,2005,12,18,08:57,-,15,-,small,Ka,P,No
+RS,Winter,2005,12,31,08:38,-,1,-,very small,,P,No
+DF,Winter - Spring,2006,02-Apr,,,500,2000,5000,large,Qat,P,No
+RF,Winter,2006,2,2,18:20,-,5,-,small,Kec,"P, F/T",Yes
+RF,Winter,2006,2,3,22:30,-,5,-,small,Kgp,"P, F/T",Yes
+RF,Winter,2006,2,22,12:00,5,10,10,small,Ks,"TS, F/T",Yes
+RF,Winter,2006,2,22,19:05,5,10,10,small,Kec,F/T,Yes
+RF,Winter,2006,2,27,10:00,0,0.2,0.5,extremely small,Kec/Kdg,P,Yes
+RF,Winter,2006,2,27,15:00,-,2,-,very small,Kec/Kdg,P,Yes
+RS,Spring,2006,3,27,11:40,-,33,-,small,Kgp/Kec,"SM, F/T",No
+RS,Spring,2006,3,27,14:30,2,3,3,very small,Kgp,"SM, F/T",No
+DS,Spring,2006,4,3,06:15,5,20,50,small,Qat,UKN,No
+RF,Spring,2006,4,4,10:15,5,10,10,small,Khd/Kgp ,P,Yes
+RF,Spring,2006,4,4,14:00,0,1,1,very small,Kec/Kdg,P,Yes
+RS,Spring,2006,4,5,11:20,-,36,-,small,Kga,P,No
+RS,Spring,2006,4,6,14:00,-,3,-,very small,Pzme/Kga,P,No
+RS,Spring,2006,4,06-Jul,,-,10,-,small,Kga,P,No
+DS,Spring,2006,4,06-Jul,,-,400,-,medium,Qat,P,No
+RF,Spring,2006,4,30,07:20,5,10,10,small,Kgp,UNR,Yes
+RF,Spring,2006,4,30,08:30,-,See ID 2006043001,-,See ID 2006043001,Kgp,UNR,Yes
+RF,Spring,2006,5,4,05:00,-,30,-,small,Kec/Kdg,P,Yes
+RF,Spring,2006,5,7,10:30,-,20,-,small,Kbv,UNR,Yes
+RF,Spring,2006,5,21,18:30,-,1,-,very small,Kec,P,Yes
+RF,Spring,2006,6,10,14:30,-,20,-,small,Khd,UNR,Yes
+RF,Spring,2006,6,11,14:20,5,10,10,small,Khd,UNR,Yes
+RF,Summer,2006,6,23-25,,-,0.5,-,extremely small,Khd,UKN,Yes
+DF,Summer,2006,7,22,,5000,20000,50000,very large,Qat,P,No
+DF,Summer,2006,7,22,,5000,20000,50000,very large,Qat,P,No
+DF,Summer,2006,7,22,,5000,20000,50000,very large,Qat,P,No
+DF,Summer,2006,7,22,,500,2000,5000,large,Qat,P,No
+DF,Summer,2006,7,22,,50,200,500,medium,Qat,P,No
+RF,Summer,2006,7,27,15:30,-,15,-,small,Kgp,UNR,Yes
+RF,Summer,2006,7,27,17:46,-,735,-,large,Khd,UNR,Yes
+RF,Summer,2006,8,5,09:45,-,10,-,small,Kgp,UNR,Yes
+RF/DS,Summer,2006,8,6,14:13,-,300,-,medium,Kec,TS,No
+RF,Summer,2006,8,7,01:10,5,20,50,small,,UKN,Yes
+RF,Summer,2006,8,21,13:30,5,20,50,small,Khd,UNR,Yes
+RF,Summer,2006,8,22,02:30,0,5,5,small,Khd/Kgp ,UNR,Yes
+RF,Summer,2006,9,5,04:30,5,10,10,small,Ks/Pzme,UKN,Yes
+RF,Summer,2006,9,20,17:00,5,20,50,small,Ks/Pzme,UKN,Yes
+RF,Fall,2006,9,23,16:00,6,9,12,small,Kec,TS,Yes
+RF,Fall,2006,9,29,09:15,0.5,2,5,very small,Khd,UNR,Yes
+RF,Fall,2006,10,6,06:45,-,30,-,small,Kgp,"P, F/T",Yes
+RF,Fall,2006,10,6,08:05,0,0.2,0.5,extremely small,Ka,"P, F/T",Yes
+RF,Fall,2006,10,6,18:00,5,20,50,small,Kec/Kdg,P,Yes
+RF,Fall,2006,11,14,,1,2,5,very small,Qat,P,Yes
+RF,Fall,2006,11,20,15:30,0,0.2,0.5,extremely small,Kec,UKN,Yes
+RF,Winter,2007,,,,-,50,-,medium,Kec,UKN,Yes
+RF,,2007,,,,-,37,-,small,Kec,UKN,Yes
+RF,Winter,2007,1,15,00:28,5,20,50,small,Kec,F/T,Yes
+RF,Winter,2007,1,22,00:58,500,2000,5000,small,Khd,UKN,Yes
+RS,Winter,2007,2,10,11:00,0,1,0.5,very small,Kga,P,No
+RF,Winter,2007,2,10,11:47,5,10,10,small,Khd/Kgp ,P,Yes
+RF,Winter,2007,2,10,16:45,2,4,5,very small,Kgp,"P, F/T",Yes
+RF,Winter,2007,3,,,6,7,8,small,Kec,UKN,Yes
+RF,Winter,2007,3,,,-,2,-,very small,Kec,UKN,Yes
+RF,Winter,2007,3,,,-,9,-,small,Kec,UKN,Yes
+RF,Winter,2007,3,15,13:15,-,100,-,medium,Kec,SM,Yes
+RF,Spring,2007,4,,,-,288,-,medium,Khd,UKN,Yes
+RF,Spring,2007,4,11,09:20,5,10,10,small,Kgp,P,Yes
+RF,Spring,2007,4,23,08:00,-,24,-,small,Kbv,"P, F/T",Yes
+RF,Spring,2007,5,04-May,,-,3,-,very small,Kec,UNR,Yes
+RF,Spring,2007,5,16,03:00,5,10,10,small,Ks,UNR,Yes
+RS,Spring,2007,6,,19:00,50,200,500,medium,Khd,UNR,No
+RF,Spring,2007,6,1,,20,25,30,small,Klt,UKN,Yes
+RF,Spring,2007,6,9,01:00,5,20,50,small,Kec,UNR,Yes
+RF,Spring,2007,6,9,01:53,-,18,-,small,Kgp,UNR,Yes
+RF,Spring,2007,6,9,12:00,0,0.5,0.5,extremely small,Ks,UNR,Yes
+RF,Spring,2007,6,19,late pm,0.5,2,5,very small,Kga,RW,Yes
+RF,Summer,2007,6,24,21:00,-,0.2,-,extremely small,Kgp,UKN,Yes
+RS,Summer,2007,7,6,05:40,0,0.2,0.5,extremely small,Kec,UKN,No
+RS,Summer,2007,7,9,14:18,0,0.2,0.5,extremely small,Ka,UKN,No
+RF,Summer,2007,7,10,10:30,0,0.1,0.1,extremely small,Khd,UKN,Yes
+RS,Summer,2007,7,15,22:00,-,10,-,small,Krd,UNR,No
+RF,Summer,2007,7,16,18:30,-,10,-,small,Khd,UNR,Yes
+RF,Summer,2007,7,16,21:00,5,20,50,small,Khd,UNR,Yes
+RF,Summer,2007,7,17,late pm,2,4,5,very small,Khd,UNR,Yes
+RF,Summer,2007,7,26,09:25,-,8,-,small,Kgp,UNR,Yes
+RF,Summer,2007,8,30,07:00,-,10,-,small,Khd/Kgp ,P,Yes
+RF,Summer,2007,8,30,07:15,-,5,-,small,Kgp,P,Yes
+RF,Fall,2007,9,23,09:20,5,20,50,small,Khd,"P, TS",Yes
+RF/DS,Fall,2007,10,17,09:30,-,10,-,small,Kec,P,No
+RF,Fall,2007,12,18,16:00,-,6,-,small,Ks,"P, F/T",Yes
+RF,Fall,2007,12,18,pm,-,10,-,small,Ks,"P, F/T",Yes
+RF,Fall,2007,12,19,15:32,-,8,-,small,Ks,"P, F/T",Yes
+RF,Winter,2007,12,25,,-,10,-,small,Ks,UKN,Yes
+RF,Winter,2008,1,4,19:00,5,20,50,small,Ks,UKN,Yes
+RF,Winter,2008,1,8,10:16,-,10,-,small,Ks,F/T,Yes
+RF,Winter,2008,1,10,02:45,-,3,-,very small,Kga,P,Yes
+RF,Winter,2008,1,10,04:45,-,18,-,small,Ka,"P, F/T",Yes
+RF,Winter,2008,1,16,06:32,5,20,10,small,Ks/Kec,UKN,Yes
+RF,Winter,2008,1,16,12:30,5,8,10,small,Ks/Kec,UKN,Yes
+RF,Winter,2008,1,27,10:18,-,10,-,small,Ks,"P, F/T",Yes
+RS,Winter,2008,2,3,03:00,2,3,3,very small,Kec,P,No
+RF,Winter,2008,2,20,20:00 - 21:00,-,6,-,small,Ks/Kec,P,Yes
+RF,Winter,2008,2,22,10:30,20,35,50,small,Kgp,P,Yes
+SA,Winter,2008,2,25,17:25,-,20,-,small,Ks,SA,No
+RF,Winter,2008,2,28,01:15,-,42,-,small,Kgp,"SM, F/T",Yes
+RF,Winter,2008,3,13,14:30,-,100,-,medium,Klt,UNR,Yes
+RF,Spring,2008,4,4,09:20,5,20,50,small,Kgp,SM,Yes
+RF,Spring,2008,4,10,23:34,5,20,50,small,Ks,SM,Yes
+RF,Spring,2008,4,19,15:05,-,5,-,small,Khd,SM,Yes
+RF,Spring,2008,4,29,10:30,-,10,-,small,Qat,UNR,Yes
+RF,Spring,2008,5,1,08:52,-,35,-,small,Kgp,F/T,Yes
+RF,Spring,2008,5,27,09:00,-,18,-,small,Kgp,"P, RW",Yes
+RF,Spring,2008,5,31,20:05,5,20,50,small,Kec,UKN,Yes
+RF,Spring,2008,6,3,,-,0.2,-,extremely small,Khd,UNR,Yes
+RF,Summer,2008,7,7,19:15,-,35,-,small,Kec,TS,Yes
+RF,Summer,2008,7,8,15:30,5,20,50,small,Khd,UNR,Yes
+RF,Summer,2008,7,8,16:00,5,20,50,small,Khd,UNR,Yes
+RS,Summer,2008,8,5,07:30,-,1,-,very small,Kga/Kec,UKN,No
+RF,Summer,2008,8,13,06:05,5,20,50,small,Khd,UNR,Yes
+RS,Summer,2008,8,19,,0.5,2,5,very small,Kec,UNR,No
+RF,Summer,2008,8,26,14:40,-,10,-,small,Khd,UNR,Yes
+RF,Summer,2008,9,20,03:00,0.5,2,5,very small,Kt,UKN,Yes
+RF,Summer,2008,9,22,07:25,8,9,10,small,Kec,UNR,Yes
+RF,Fall,2008,10,1,early pm,5,20,50,small,Khd,UKN,Yes
+RF,Fall,2008,10,7,13:30,-,1133,-,large,Kgp,UNR,Yes
+RF,Fall,2008,10,8,05:55,-,4530,-,large,Kgp,UNR,Yes
+RF,Fall,2008,10,31,12:30,8,10,12,small,Kec,P,Yes
+RF,Fall,2008,11,1,19:00,5,20,50,small,Khd,P,Yes
+RF,Fall,2008,11,1,20:00,-,See ID 2008110101,-,See ID 2008110101,Khd,P,Yes
+RF,Fall,2008,11,1,,-,10,-,small,Kbv,P,Yes
+RF,Fall,2008,11,2,04:15,-,See ID 2008110101,-,See ID 2008110101,Khd,P,Yes
+RF,Fall,2008,11,2,06:30,0,1,1,very small,Kec/Kdg,P,Yes
+RF,Fall,2008,11,2,07:30,-,See ID 2008110101,-,See ID 2008110101,Khd,P,Yes
+RF,Fall,2008,11,2,08:00,-,See ID 2008110101,-,See ID 2008110101,Khd,P,Yes
+RF,Fall,2008,11,2,08:34,-,10,-,small,Ks,P,Yes
+RF,Fall,2008,11,2,09:00,-,See ID 2008110101,-,See ID 2008110101,Khd,P,Yes
+RF,Fall,2008,11,4,14:30,-,80,-,medium,Kec,"P, F/T",Yes
+RS,Fall,2008,12,7,,-,10,-,small,Khd,UKN,No
+RF,Winter,2009,1,3,,-,115,-,medium,Khd,"P, F/T",Yes
+RF,Winter,2009,1,16,13:45,2,3,3,very small,Kec,SM,Yes
+RF,Winter,2009,1,17,14:00,50,200,500,medium,Kec,SM,Yes
+RF,Winter,2009,1,22,13:45,0.5,2,5,very small,Kgp,P,Yes
+RF,Winter,2009,1,22,13:45,0.5,2,5,very small,Kgp,P,Yes
+RF,Winter,2009,1,29,17:12,-,290,-,medium,Ks,"SM, F/T",Yes
+RF,Winter,2009,2,5,08:30,0.5,2,5,very small,Kec,UKN,Yes
+RF,Winter,2009,2,22,16:30,-,40,-,small,Kt,P,Yes
+RF,Winter,2009,02-Mar,29-Jul,,-,8,-,small,Kec,"P, F/T",Yes
+RF,Winter,2009,3,4,05:20,5,20,50,small,Kec,P,Yes
+RF,Winter,2009,3,26,,-,3,-,very small,Kga,UNR,Yes
+RF,Spring,2009,3,27,23:15,-,See ID 2009032801,-,medium,Khd,SM,Yes
+RF,Spring,2009,3,28,04:26,-,46700,-,very large,Khd,SM,Yes
+RF,Spring,2009,3,28,am-pm,-,See ID 2009032801,-,small,Khd,"SM, CP",Yes
+RF,Spring,2009,3,29,13:00,5,20,50,small,Khd,"SM, CP",Yes
+RF,Spring,2009,4,2,18:45,-,400,-,medium,Khd,SM,Yes
+RF,Spring,2009,4,18,09:45,-,20,-,small,Khd,SM,Yes
+RF,Spring,2009,4,24,13:00,-,25,-,small,Khd,UNR,Yes
+RF,Spring,2009,4,24,,5,20,50,small,Kec,UKN,Yes
+RF,Spring,2009,4,27,10:00,50,200,500,medium,Khd,UKN,Yes
+RF,Spring,2009,5,1,11:30-12:00,-,6,-,small,Kgp,P,Yes
+RF,Spring,2009,5,02-Mar,,6,8,10,small,Khd,UNR,Yes
+RF,Spring,2009,5,3,23:00,5,20,50,small,Kgp,P,Yes
+RF,Spring,2009,5,3,10:00-12:00,5,20,50,small,Khd,P,Yes
+RF,Spring,2009,5,9,11:02,5,20,50,small,Ks,P,Yes
+RF,Spring,2009,5,17,17:00,-,12,-,small,Kec,UKN,Yes
+RF,Spring,2009,5,17,,5,20,50,small,Kec,SM,Yes
+RF,Spring,2009,5,27,12:30,-,120,-,medium,Kec,SM,Yes
+RF,Spring,2009,5,27,20:20,5,20,50,small,Kgp,UKN,Yes
+RF,Spring,2009,5,30,15:00,0,0.2,0.5,extremely small,Kec,P,Yes
+RF,Summer,2009,6,30,12:50,5,7,8,small,Kgp,UNR,Yes
+RF,Summer,2009,6,30,12:50,5,20,50,small,Kec,UNR,Yes
+RF,Summer,2009,7,7,15:30,-,3,-,very small,Khd,UNR,Yes
+RF,Summer,2009,7,10,16:00,-,5,-,small,Kec,UNR,Yes
+RF,Summer,2009,7,18,17:35,-,80,-,medium,Khd,TS,Yes
+RF,Summer,2009,7,20,12:35,-,2,-,very small,Kec,TS,Yes
+RF,Summer,2009,7,20,21:35,0.5,2,5,very small,Khd/Kgp ,TS,Yes
+RF,Summer,2009,7,23,01:00,-,5,-,small,Khd,UNR,Yes
+RS,Summer,2009,8,6,17:00,-,100,-,medium,Kec,UNR,No
+RF,Summer,2009,8,23,06:15,5,20,50,small,Khd,P,Yes
+RF,Summer,2009,8,23,07:10,5,20,50,small,Khd,P,Yes
+RF,Summer,2009,8,23,10:00,5,20,50,small,Ks,P,Yes
+RF,Summer,2009,8,26,04:15,-,6,-,small,Ks,UNR,Yes
+RF,Summer,2009,8,26,12:30,-,19,-,small,Ks,CP,Yes
+RF,Summer,2009,8,26,12:31,-,16,-,small,Ks,CP,Yes
+RF,Summer,2009,8,26,12:31,-,78,-,medium,Ks,CP,Yes
+RF,Summer,2009,8,26,13:09,-,558,-,large,Ks,CP,Yes
+RF,Summer,2009,8,26,14:35,-,60,-,medium,Ks,CP,Yes
+RF,Summer,2009,9,14,17:12,-,108,-,medium,Ks,CP,Yes
+RF,Fall,2009,9,29,05:55,-,55,-,medium,Kgp,UNR,Yes
+RF,Fall,2009,10,5,15:37,5,15,50,small,Khd,"P, F/T",Yes
+RF,Fall,2009,10,13,09:00,5,20,50,small,Khd,P,Yes
+RF,Fall,2009,10,13,09:45,-,50,-,medium,Kec,P,Yes
+RF,Fall,2009,10,13,17:25,0.5,2,5,very small,Kec,P,Yes
+RF,Fall,2009,10,13,,-,6,-,small,Kga,P,Yes
+RF/DF,Fall,2009,10,13-15,,50,200,500,medium,,P,No
+RF,Fall,2009,10,13,11:45,-,0.2,-,extremely small,Khd,P,Yes
+RF,Fall,2009,10,14,00:10,-,15,-,small,Ks,P,Yes
+RF,Fall,2009,10,14,05:50,0.5,2,5,very small,Kec,P,Yes
+DF,Fall,2009,10,14,early am,-,25,-,small,Qat,P,No
+RF,Fall,2009,10,15,10:27,0.5,2,5,very small,Kga,P,Yes
+RF,Fall,2009,10,17,11:25,-,10,-,small,Kec,UKN,Yes
+RF,Fall,2009,10,17,12:15,-,3,-,very small,Kec,P,Yes
+RF,Fall,2009,10,28,10:30,5,20,50,small,Khd,F/T,Yes
+RS,Fall,2009,11,6,08:00,0.5,2,5,very small,Kec/Kdg,UNR,No
+RF,Fall,2009,11,10,,5000,20000,50000,very large,Khd,UNR,Yes
+RF,Fall,2009,12,11,,-,80,-,medium,Krm,UKN,Yes
+RF,Winter,2009,12,23,09:10,-,4,-,very small,Ks,F/T,Yes
+RF,Winter,2009,12,25,15:00,0.5,2,5,very small,Ks,F/T,Yes
+RF,Winter,2009,12,27,11:30,-,20,-,small,Khd/Kgp ,UKN,Yes
+RS,Winter,2010,1,18,16:00,0.5,2,5,very small,Pzme,P,No
+RF,Winter,2010,1,21,18:05,5,7.5,10,small,Ks,P,Yes
+RF,Winter,2010,2,18,13:10,0.5,2,5,very small,Ks,UKN,Yes
+RF,Winter,2010,3,14,20:15,-,10,-,small,Khd/Kgp ,F/T,Yes
+RF,Spring,2010,3,30,09:50,0.5,0.75,1,very small,Ks,P,Yes
+RF,Spring,2010,3,30,,0,0.1,0.2,extremely small,Ks,P,Yes
+RF,Spring,2010,4,3,10:00,0.5,2,5,very small,Kec,UKN,Yes
+RF,Spring,2010,4,10,16:30,-,35,-,small,Kgp,SM,Yes
+RF,Spring,2010,4,16,02:00,5,20,50,small,Khd,UKN,Yes
+RF,Spring,2010,4,18,15:00,-,10,-,small,Khd,P,Yes
+RF,Spring,2010,4,22,16:37,5,20,50,small,Kec,"F/T, P",Yes
+RF,Spring,2010,4,22,13:45,5,20,50,small,Khd/Kgp ,"F/T, P",Yes
+RF,Spring,2010,5,3,14:30,-,5,-,small,Kec,UKN,Yes
+RF,Spring,2010,5,18,18:55,0.5,2,5,very small,Kgp,"P, SM",Yes
+RF,Spring,2010,5,24,06:55,-,15,-,small,Ks,"F/T, P",Yes
+RF,Summer,2010,7,7,09:15,5,20,50,small,Kec,"TS, L",Yes
+RF,Summer,2010,7,17,09:00,-,3,-,very small,Kg,SM,Yes
+RF,Summer,2010,7,17,12:45,-,30,-,small,Kcp,SM,Yes
+RF,Summer,2010,7,23,11:58,3,4,5,very small,Khd,UNR,Yes
+RF,Summer,2010,7,23,12:30,-,10,-,small,Kcp,TS,Yes
+RF,Summer,2010,7,24,17:37,-,150,-,medium,Khd,TS,Yes
+RF,Summer,2010,8,9,06:24,5,20,50,small,Khd,UNR,Yes
+RF,Summer,2010,8,18,12:25,3,4,5,very small,Kec,UNR,Yes
+RF,Summer,2010,8,24,10:22,-,3,-,very small,Kgp,TS,Yes
+RF,Summer,2010,8,30,01:45,-,30,-,small,Ks,CP,Yes
+RF,Summer,2010,9,2,10:50,10,15,20,small,Ks,UNR,Yes
+RF,Summer,2010,9,2,00:50,5,7.5,10,small,Ks,UNR,Yes
+RF,Summer,2010,9,3,13:54,-,20,-,small,Kgp,UNR,Yes
+RF,Summer,2010,9,7,11:05,0,1,2,very small,Kid,UNR,Yes
+RF,Summer,2010,9,7,14:45,-,5,-,small,Khd,UNR,Yes
+RF,Summer,2010,9,8,13:40,5,20,50,small,Khd,UNR,Yes
+RF,Summer,2010,9,18,12:55,0.5,2,5,very small,Kec,UNR,Yes
+RF,Fall,2010,9,27,13:30,-,43,-,small,Ks,CP,Yes
+RF,Fall,2010,10-Nov,,,-,14,-,small,Ks,CP,Yes
+DF,Fall,2010,10,2,14:40,50,200,500,medium,Qat,P,No
+RF,Fall,2010,10,02-Mar,,5,20,50,small,Kec,P,Yes
+DF,Fall,2010,10,4,06:15,-,10,-,small,Qat,P,No
+RS,Fall,2010,10,4,06:30,0.5,2,5,very small,Kga,P,No
+DF,Fall,2010,10,4,06:53,-,250,-,medium,Qat,P,No
+RF,Fall,2010,10,5,14:00,-,2,-,very small,Ks,P,Yes
+RF,Fall,2010,10,9,11:30,10,15,20,small,Ks,P,Yes
+RF,Fall,2010,10,9,14:13,-,0.5,-,very small,Ks,P,Yes
+RF,Fall,2010,10,10,,-,1,-,very small,Ks,P,Yes
+RF,Fall,2010,10,10,10:00,5,20,50,small,Kec,P,Yes
+RF,Fall,2010,10,11,02:00-03:00,0.5,2,5,very small,Kec,UNR,Yes
+RF,Fall,2010,10,11,10:30,-,65,-,medium,Kec,UNR,Yes
+RF,Fall,2010,10,11,10:32,-,990,-,large,Kec,UNR,Yes
+RF,Fall,2010,10,11,10:34,-,20,-,small,Kec,UNR,Yes
+RF,Fall,2010,10,11,12:02,-,25,-,small,Kec,UNR,Yes
+RF,Fall,2010,10,12,00:00-01:00,-,80,-,small,Kec,UNR,Yes
+RF,Fall,2010,10,12,14:13,-,1,-,small,Kec,UNR,Yes
+RF,Fall,2010,10,28,20:05,-,33,-,small,Ks,CP,Yes
+RF,Fall,2010,11,10,07:10,2,2.5,3,very small,Kec,P,Yes
+RF,Fall,2010,11,10,16:15,0,0.5,1,very small,Kec/Kdg,P,Yes
+RF,Fall,2010,11,12,16:42,-,40,-,small,Ks,CP,Yes
+RF,Fall,2010,11,12,,-,10,-,small,Ks,UNR,Yes
+RF,Fall,2010,11,13,12:04,-,28,-,small,Ks,CP,Yes
+RF,Fall,2010,11,17,15:11,-,5,-,small,Kec,CP,Yes
+RF,Fall,2010,11,19,08:30,-,4,-,very small,Khd/Kgp ,UNR,Yes
+RF,Fall,2010,11,20,22:55,-,2,-,small,Ks,CP,Yes
+RF,Fall,2010,12,3,16:28,5,20,50,small,Ks/Kec,P,Yes
+RF,Fall,2010,12,5,18:30,5,20,50,small,Ks/Pzme,P,Yes
+RF,Fall,2010,12,6,13:15,-,1,-,very small,Ka,P,Yes
+RF,Fall,2010,12,7,04:50,-,38,-,small,Ka,P,Yes
+RF,Fall,2010,12,8,12:37,0.5,2,5,very small,Kgp,"P, F/T",Yes
+RS,Fall,2010,12,21,09:45,-,25,-,small,Kga,"RW, F/T",No
+DS,Winter,2010,12,23,14:00,5,20,50,small,Qat,P,No
+RS,Winter,2010,12,29-30,,-,85,-,medium,Kga,"P, F/T",No
+RS,Winter,2010,12,30,10:37,-,12,-,small,Kga,"P, F/T",No
+RF,Winter,2011,1,26,,-,1.5,-,very small,Kec,UKN,Yes
+RF,Winter,2011,1,31,,500,950,1500,large,Kt,"P, F/T",Yes
+RF,Winter,2011,2,5,20:20,-,240,-,medium,Kec,UNR,Yes
+RF,Winter,2011,2,17,02:30,5,20,50,small,Kec,"P, F/T",Yes
+RS,Winter,2011,2,18-19,late pm / early am,-,2.5,-,very small,Pzme,P,No
+RS,Winter,2011,2,25,,-,0.4,-,extremely small,Pzme,P,No
+RF,Winter,2011,3,8,09:35,-,1,-,very small,Kgp,UKN,Yes
+RF,Winter,2011,3,12,03:52,5,20,50,small,Ks/Pzme,"F/T, SM",Yes
+RF,Winter,2011,3,12,19:27,0.5,2,5,very small,Khd,UNR,Yes
+RS/ES,Spring,2011,3,21-25,,5,20,50,small,Kga,P,No
+RS/ES,Spring,2011,3,21-25,,100,200,500,medium,Ka/Kga,P,No
+SA,Spring,2011,3,21-25,,5,20,50,small,Khd,SA,No
+RF,Spring,2011,3,25,08:00,-,4,-,very small,Kga,P,Yes
+DS,Spring,2011,3,25,21:00,-,1200,-,large,Pzme,P,No
+RF,Spring,2011,3,25,,0.5,2,5,very small,Krm,P,Yes
+RF,Spring,2011,4,20,16:10,-,15,-,small,Kec,UNR,Yes
+RF,Spring,2011,4,20,20:10,-,7,-,small,Ks/Kec,UNR,Yes
+RF,Spring,2011,5,1,18:30,5,10,50,small,Kgp,SM,Yes
+RF,Spring,2011,5,21,14:00,-,5,-,small,Kec,SM,Yes
+RF,Spring,2011,5,27,16:41,5,20,50,small,Khd,P,Yes
+RF,Spring,2011,6,15,17:10,5,20,50,small,Khd,UNR,Yes
+RF,Summer,2011,6,21,09:30,2,3.5,5,small,Klt/Kbv,UNR,Yes
+RF,Summer,2011,6,26,15:32,5,20,50,small,Ks,UNR,Yes
+RF,Summer,2011,6,27,12:00,-,0.2,-,extremely small,Khd,UNR,Yes
+RF,Summer,2011,6,29,09:30,5,10,50,small,Khd/Kgp ,P,Yes
+RF,Summer,2011,7,1,02:41,-,25,-,small,Kgp,UNR,Yes
+RF,Summer,2011,7,5,17:38,-,3,-,very small,Kbv,TS,Yes
+RF,Summer,2011,7,05-Jun,late pm / early am,5,20,50,small,Kec/Kt,UNR,Yes
+RF,Summer,2011,7,7,07:08,-,2,-,very small,Khd/Kgp ,UNR,Yes
+RF,Summer,2011,7,12,14:47,30,45,60,small,Kbv,TS/CP,Yes
+RF,Summer,2011,7,13,16:15,-,10,-,small,Kec,UNR,Yes
+RF,Summer,2011,7,13,08:57,-,30,-,small,Ks,UNR,Yes
+RF,Summer,2011,7,15,00:43,20,35,50,small,Khd,UKN,Yes
+RF,Summer,2011,8,19,12:30,-,15,-,small,Kgp/Kec,UNR,Yes
+RF,Summer,2011,9,1,06:15,150,200,250,small,Kbv,CP,Yes
+RF,Summer,2011,9,10,11:40,-,4,-,small,Kec,UNR,Yes
+RF,Summer,2011,9,11,14:20,-,1,-,very small,Kec/Kdg,P,Yes
+RS,Summer,2011,9,11,14:35,-,2,-,very small,Ks,P,No
+DS,Summer,2011,9,11-Dec,late pm / early am,-,3.5,-,very small,Qat,P,No
+RF,Summer,2011,9,18,06:02,-,0.1,-,extremely small,Ks,UNR,Yes
+RF,Summer,2011,9,19,15:20,-,2,-,very small,Kec,UNR,Yes
+RF,Fall,2011,9,24,10:00,-,1,-,very small,Ks,UNR,Yes
+RF,Fall,2011,9,24,21:45,5,20,50,small,Khd,P,Yes
+RF,Fall,2011,9,26,19:46,0.5,2,5,very small,Khd,UKN,Yes
+RF,Fall,2011,10,1,07:17,-,3,-,very small,Ks,UNR,Yes
+RF,Fall,2011,10,1,08:30,0.5,2,5,very small,Khd,UNR,Yes
+RF,Fall,2011,10,5,late pm,-,7,-,very small,Khd/Kgp ,UNR,Yes
+RF,Fall,2011,10,9,11:00,-,4,-,very small,Kec,UNR,Yes
+RF,Fall,2011,10,11,18:18,0.5,2,5,very small,Kec,UNR,Yes
+RF,Fall,2011,10,28,12:49,-,20,-,small,Kec,UNR,Yes
+DS,Fall,2011,11,5,13:40,-,5,-,very small,Kga,P,No
+RF,Fall,2011,11,7,03:00,-,25,-,small,Ka,F/T,Yes
+RF,Fall,2011,11,12,13:06,5,10,50,small,Khd,UNR,Yes
+RF,Fall,2011,11,12,16:45,5,20,50,small,,UNR,Yes
+RF,Fall,2011,11,20-24,,10,10,15,small,Kec,UNR,Yes
+RF,Fall,2011,11,27,16:10,-,1,-,very small,Khd,UNR,Yes
+RF,Fall,2011,12,,,-,10,-,small,Ktf,UNR,Yes
+RF,Fall,2011,12,,,5,15,20,small,Kga,UKN,Yes
+DS,Fall,2011,12,10,18:00,5,20,50,small,Qat,UNR,No
+RF,Winter,2011,12,31,15:00,5,20,50,small,Khd,UNR,Yes

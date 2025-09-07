@@ -5,7 +5,14 @@ import { searchLocation } from '../controller/locationController.js';
 import { getLatestImageMiddleware } from '../middleware/getImage.js'
 import { getLatestInfo } from '../controller/getLatestInfo.js';
 
-// ... (your other imports)
+
+// routes/locationRoutes.js
+import express from "express";
+import axios from "axios";
+import { spawn } from "child_process";
+import path from "path";
+import { fileURLToPath } from "url";
+import { getLatestImageMiddleware } from "../middleware/getImage.js";
 
 const locationRouter = express.Router();
 
@@ -34,6 +41,15 @@ locationRouter.get('/search-location', async (req, res) => {
     // Your server sends the data back to your frontend
     res.json(apiResponse.data);
 
+
+
+
+
+
+
+
+
+    
   } catch (error) {
     console.error("Error in /search-location route:", error.message);
     res.status(500).json({ message: "Server error while fetching location." });

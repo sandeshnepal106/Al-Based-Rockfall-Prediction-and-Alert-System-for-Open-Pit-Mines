@@ -1,0 +1,14 @@
+{
+    "lat": 23.79,
+    "lon": 86.44,
+    "dem_image_path": "https://res.cloudinary.com/dhiqelg5g/image/upload/v1757183009/mern_uploads/gvijmqku0ggnspv9hubd.jpg",
+    "dem_bounds": {
+        "min_lat": 23.0,
+        "max_lat": 24.0,
+        "min_lon": 86.0,
+        "max_lon": 87.0
+    },
+    "model_path": "../ml_training/model.pkl",
+    "weather_api_key": "02c178e38a1d4f3d801181800250609",
+    "slope_method": "advanced"
+}
