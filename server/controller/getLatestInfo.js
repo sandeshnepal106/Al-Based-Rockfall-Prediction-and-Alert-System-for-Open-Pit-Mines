@@ -19,7 +19,6 @@ export const getLatestInfo = (req, res) => {
         message: "Required data (lat, lon, or imageURL) not found for the latest image."
       });
     }
-
     // 3. Send all data back, aliasing imageURL as dem_image_url.
     const formattedResults =[
         {
@@ -65,10 +64,16 @@ export const getLatestInfo = (req, res) => {
 
             console.log(pythonResult)
             // Return combined results
-            res.json({
+            console.log("Python raw output:", pythonOutput);
+            console.log("Parsed Python result:", pythonResult);
+
+
+            return res.json({
                 locations: formattedResults,
                 analysis: pythonResult,
             });
+
+
         } catch (parseError) {
             console.error("Error parsing Python output:", parseError);
             res.json({

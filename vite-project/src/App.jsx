@@ -21,7 +21,8 @@ const App = ()=> {
   
   // UI states
   const [showMap, setShowMap] = useState(false);
-
+  const [riskProbability, setRiskProbability] = useState(null);
+  const [predicting, setPredicting] = useState(false);
 
   // Debounce function
   const debounce = (func, delay) => {
@@ -153,32 +154,41 @@ const App = ()=> {
   }; 
 
   // Handle prediction
-  const handlePredict = () => {
-    if (!coordinates) {
-      setError("Please search for a location first!");
-      return;
+  // ...existing code...
+const handlePredict = async () => {
+  if (!coordinates) {
+    setError("Please search for a location first!");
+    return;
+  }
+  setPredicting(true); // Start loading
+  setShowMap(true);
+  const res = await getInfo();
+  if (res && res.analysis && typeof res.analysis.risk_probability !== "undefined") {
+    console.log("Risk Percentage:", res.analysis.risk_probability);
+    setRiskProbability(res.analysis.risk_probability);
+  } else {
+    console.log("Risk percentage not found in response:", res);
+  }
+  setPredicting(false); // End loading
+};
+// ...existing code...
+
+  // ...existing code...
+const getInfo = async () => {
+  try {
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/location/get-latest-info`);
+    if (!res.ok) {
+      throw new Error("Failed to fetch info");
     }
-    setShowMap(true);
-    const res = getInfo();
-    console.log(res);
-  };
-
-  const getInfo = async () => {
-    try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/location/get-latest-info`);
-
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
-      }
-
-      const data = await res.json();
-      console.log("Fetched info:", data);
-      return data;
-    } catch (error) {
-      console.error("Error fetching info:", error);
-      return null;
-    }
-  };
+    const data = await res.json();
+    console.log("Fetched:", data);
+    return data; // <-- Return the parsed JSON here!
+  } catch (error) {
+    console.error("Error fetching info:", error);
+    return null;
+  }
+};
+// ...existing code...
 
   
 
@@ -222,8 +232,24 @@ const App = ()=> {
             <ImagePreview preview={preview} />
             
             {showMap && coordinates && (
-              <RiskMap coordinates={coordinates} locationName={address} />
+              <RiskMap coordinates={coordinates} locationName={address} risk_probability={riskProbability} />
+              
             )}
+            <div>
+  {predicting ? (
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+      <h2 className="text-2xl font-bold mb-4">Rockfall Risk Prediction</h2>
+      <p className="text-lg font-semibold mb-2 animate-pulse">Loading risk probability...</p>
+    </div>
+  ) : (
+    riskProbability && (
+      <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+        <h2 className="text-2xl font-bold mb-4">Rockfall Risk Prediction</h2>
+        <p className="text-lg font-semibold mb-2">Risk Percentage: {(riskProbability * 100).toFixed(1)}%</p>
+      </div>
+    )
+  )}
+</div>
 
           </section>
         )}
