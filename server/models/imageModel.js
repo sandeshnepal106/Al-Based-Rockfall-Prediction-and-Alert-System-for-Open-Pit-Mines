@@ -6,6 +6,15 @@ const uploadSchema = new mongoose.Schema(
             type: String,
             required: true
         },
+        lat: {
+            type: String,
+            default: "0"
+
+        },
+        lon: {
+            type: String,
+            default: "0"
+        }
     }, {timestamps: true}
 )
 const uploadModel = mongoose.model("Upload", uploadSchema);

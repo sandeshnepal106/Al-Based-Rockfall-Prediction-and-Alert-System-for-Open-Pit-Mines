@@ -22,6 +22,7 @@ const App = ()=> {
   // UI states
   const [showMap, setShowMap] = useState(false);
 
+
   // Debounce function
   const debounce = (func, delay) => {
     let timeoutId;
@@ -119,7 +120,7 @@ const App = ()=> {
     setSuggestions([]);
 
     try {
-      const url = `${import.meta.env.VITE_API_URL}/location/search-location?q=${encodeURIComponent(address)}`;
+      const url = `${import.meta.env.VITE_API_URL}/location/locate?q=${encodeURIComponent(address)}`;
       const response = await fetch(url);
       const data = await response.json();
 
@@ -149,7 +150,7 @@ const App = ()=> {
     });
     setSuggestions([]);
     setError("");
-  };
+  }; 
 
   // Handle prediction
   const handlePredict = () => {
@@ -158,7 +159,30 @@ const App = ()=> {
       return;
     }
     setShowMap(true);
+    const res = getInfo();
+    console.log(res);
   };
+
+  const getInfo = async () => {
+    try {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/location/get-latest-info`);
+
+      if (!res.ok) {
+        throw new Error(`HTTP error! Status: ${res.status}`);
+      }
+
+      const data = await res.json();
+      console.log("Fetched info:", data);
+      return data;
+    } catch (error) {
+      console.error("Error fetching info:", error);
+      return null;
+    }
+  };
+
+  
+
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
@@ -200,6 +224,7 @@ const App = ()=> {
             {showMap && coordinates && (
               <RiskMap coordinates={coordinates} locationName={address} />
             )}
+
           </section>
         )}
 

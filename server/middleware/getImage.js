@@ -13,14 +13,18 @@ export const getLatestImageMiddleware = async (req, res, next) => {
             });
         }
 
+        // Attach the full document and the URL as before
         req.latestImage = latestImage;
         req.latestImageURL = latestImage.imageURL;
+
+        // 👇 Key Addition: Attach the document's unique ID
+        req.imageId = latestImage._id;
 
         next();
 
     } catch (error) {
         console.error("Error in getLatestImageMiddleware:", error);
+        // Pass the error to Express's central error handler
         next(error);
     }
 };
-
